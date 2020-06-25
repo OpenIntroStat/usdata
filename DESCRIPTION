@@ -1,5 +1,5 @@
 Package: usdata
-Title: What the Package Does (One Line, Title Case)
+Title: Data on the States and Counties of the United States
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Mine",
@@ -13,3 +13,5 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+URL: https://github.com/OpenIntroStat/usdata
+BugReports: https://github.com/OpenIntroStat/usdata/issues
