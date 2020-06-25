@@ -7,11 +7,20 @@ Authors@R:
            role = c("aut", "cre"),
            email = "cetinkaya.mine@gmail.com",
            comment = c(ORCID = "0000-0001-6452-2420"))
-Description: What the package does (one paragraph).
-License: MIT + file LICENSE
+Description: Demographic data on the United States at the county and state levels spanning multiple years.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 URL: https://github.com/OpenIntroStat/usdata
 BugReports: https://github.com/OpenIntroStat/usdata/issues
+Suggests: 
+    dplyr,
+    ggplot2,
+    maps,
+    testthat
+Imports: 
+    tibble
+Depends: 
+    R (>= 2.10)
