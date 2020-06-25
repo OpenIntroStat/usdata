@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://openintrostat.github.io/usdata/index.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/abbr2state.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/county.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/county_complete.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/state2abbr.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/state_stats.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/usdata-package.html</loc>
+  </url>
+</urlset>
