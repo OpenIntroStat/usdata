@@ -87,7 +87,7 @@ A data frame with 3143 observations on the following 111 variables.
 \item{hispanic_owned_firms_2007}{Hispanic-owned firms, percent (2007).}
 \item{women_owned_firms_2007}{Women-owned firms, percent (2007).}
 \item{manufacturer_shipments_2007}{Manufacturer shipments, 2007 ($1000).}
-\item{mercent_whole_sales_2007}{Merchange wholesaler sales, 2007 ($1000).}
+\item{mercent_whole_sales_2007}{Mercent wholesaler sales, 2007 ($1000).}
 \item{sales_2007}{Retail sales, 2007 ($1000).}
 \item{sales_per_capita_2007}{Retail sales per capita, 2007.}
 \item{accommodation_food_service_2007}{Accommodation and food services sales, 2007 ($1000).}
