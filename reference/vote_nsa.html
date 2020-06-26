@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • usdata</title>
+<title>Predicting who would vote for NSA Mass Surveillance — vote_nsa • usdata</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,11 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Predicting who would vote for NSA Mass Surveillance — vote_nsa" />
+<meta property="og:description" content="In 2013, the House of Representatives voted to not stop the National
+Security Agency's (NSA's) mass surveillance of phone behaviors. We look at
+two predictors for how a representative voted: their party and how much
+money they have received from the private defense industry." />
 
 
 
@@ -58,7 +62,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -99,115 +103,52 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Predicting who would vote for NSA Mass Surveillance</h1>
+    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-vote_nsa.R'><code>R/data-vote_nsa.R</code></a></small>
+    <div class="hidden name"><code>vote_nsa.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>In 2013, the House of Representatives voted to not stop the National
+Security Agency's (NSA's) mass surveillance of phone behaviors. We look at
+two predictors for how a representative voted: their party and how much
+money they have received from the private defense industry.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='kw'>vote_nsa</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-datasets" class="hasAnchor"><a href="#section-datasets" class="anchor"></a>Datasets</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="county_complete.html">county_complete</a></code> </p>
-        </td>
-        <td><p>United States Counties</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="county.html">county</a></code> </p>
-        </td>
-        <td><p>United States Counties</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="govrace10.html">govrace10</a></code> </p>
-        </td>
-        <td><p>Election results for 2010 Governor races in the U.S.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="houserace10.html">houserace10</a></code> </p>
-        </td>
-        <td><p>Election results for the 2010 U.S. House of Represenatives races</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="prrace08.html">prrace08</a></code> </p>
-        </td>
-        <td><p>Election results for the 2008 U.S. Presidential race</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="senaterace10.html">senaterace10</a></code> </p>
-        </td>
-        <td><p>Election results for the 2010 U.S. Senate races</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="state_stats.html">state_stats</a></code> </p>
-        </td>
-        <td><p>State-level data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="urban_rural_pop.html">urban_rural_pop</a></code> </p>
-        </td>
-        <td><p>State summary info</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="vote_nsa.html">vote_nsa</a></code> </p>
-        </td>
-        <td><p>Predicting who would vote for NSA Mass Surveillance</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-functions" class="hasAnchor"><a href="#section-functions" class="anchor"></a>Functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="abbr2state.html">abbr2state()</a></code> </p>
-        </td>
-        <td><p>Convert state abbreviations to names</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="state2abbr.html">state2abbr()</a></code> </p>
-        </td>
-        <td><p>Convert state names to abbreviations</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 434 observations on the following 5 variables.</p><dl>
+<dt>name</dt><dd><p>Name of the Congressional representative.</p></dd>
+<dt>party</dt><dd><p>The party of the representative: <code>D</code> for Democrat and <code>R</code> for Republican.</p></dd>
+<dt>state</dt><dd><p>State for the representative.</p></dd>
+<dt>money</dt><dd><p>Money received from the defense industry for their campaigns.</p></dd>
+<dt>phone_spy_vote</dt><dd><p>Voting to rein in the phone dragnet or continue allowing mass surveillance.</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://maplight.org/'>MapLight</a>.
+Available at <a href='http://s3.documentcloud.org/documents/741074/amash-amendment-vote-maplight.pdf'>http://s3.documentcloud.org/documents/741074/amash-amendment-vote-maplight.pdf</a>.</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>Kravets, D., 2020. Lawmakers Who Upheld NSA Phone Spying Received
+Double The Defense Industry Cash. WIRED.
+Available at <a href='http://www.wired.com/threatlevel/2013/07/money-nsa-vote'>http://www.wired.com/threatlevel/2013/07/money-nsa-vote</a>.</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/base/table.html'>table</a></span>(<span class='kw'>vote_nsa</span><span class='op'>$</span><span class='kw'>party</span>, <span class='kw'>vote_nsa</span><span class='op'>$</span><span class='kw'>phone_spy_vote</span>)</div><div class='output co'>#&gt;    
+#&gt;     continue_allowing_mass_surveillance rein_in_phone_dragnet
+#&gt;   D                                  83                   111
+#&gt;   R                                 134                    94</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/graphics/boxplot.html'>boxplot</a></span>(<span class='kw'>vote_nsa</span><span class='op'>$</span><span class='kw'>money</span> <span class='op'>/</span> <span class='fl'>1000</span> <span class='op'>~</span> <span class='kw'>vote_nsa</span><span class='op'>$</span><span class='kw'>phone_spy_vote</span>,
+        ylab = <span class='st'>"$1000s Received from Defense Industry"</span>)</div><div class='img'><img src='vote_nsa-1.png' alt='' width='700' height='433' /></div><div class='input'></div></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>

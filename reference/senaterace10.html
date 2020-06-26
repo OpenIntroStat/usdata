@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • usdata</title>
+<title>Election results for the 2010 U.S. Senate races — senaterace10 • usdata</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Election results for the 2010 U.S. Senate races — senaterace10" />
+<meta property="og:description" content="Election results for the 2010 U.S. Senate races" />
 
 
 
@@ -58,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -99,115 +100,62 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Election results for the 2010 U.S. Senate races</h1>
+    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-senaterace10.R'><code>R/data-senaterace10.R</code></a></small>
+    <div class="hidden name"><code>senaterace10.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>Election results for the 2010 U.S. Senate races</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='kw'>senaterace10</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-datasets" class="hasAnchor"><a href="#section-datasets" class="anchor"></a>Datasets</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="county_complete.html">county_complete</a></code> </p>
-        </td>
-        <td><p>United States Counties</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="county.html">county</a></code> </p>
-        </td>
-        <td><p>United States Counties</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="govrace10.html">govrace10</a></code> </p>
-        </td>
-        <td><p>Election results for 2010 Governor races in the U.S.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="houserace10.html">houserace10</a></code> </p>
-        </td>
-        <td><p>Election results for the 2010 U.S. House of Represenatives races</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="prrace08.html">prrace08</a></code> </p>
-        </td>
-        <td><p>Election results for the 2008 U.S. Presidential race</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="senaterace10.html">senaterace10</a></code> </p>
-        </td>
-        <td><p>Election results for the 2010 U.S. Senate races</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="state_stats.html">state_stats</a></code> </p>
-        </td>
-        <td><p>State-level data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="urban_rural_pop.html">urban_rural_pop</a></code> </p>
-        </td>
-        <td><p>State summary info</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="vote_nsa.html">vote_nsa</a></code> </p>
-        </td>
-        <td><p>Predicting who would vote for NSA Mass Surveillance</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-functions" class="hasAnchor"><a href="#section-functions" class="anchor"></a>Functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="abbr2state.html">abbr2state()</a></code> </p>
-        </td>
-        <td><p>Convert state abbreviations to names</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="state2abbr.html">state2abbr()</a></code> </p>
-        </td>
-        <td><p>Convert state names to abbreviations</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 38 observations on the following 23 variables.</p><dl>
+<dt>id</dt><dd><p>Unique identifier for the race, which does not overlap with other
+2010 races (see <code>govrace10</code> and <code>houserace10</code>)</p></dd>
+<dt>state</dt><dd><p>State name</p></dd>
+<dt>abbr</dt><dd><p>State name abbreviation</p></dd>
+<dt>name1</dt><dd><p>Name of the winning candidate</p></dd>
+<dt>perc1</dt><dd><p>Percentage of vote for winning candidate (if more than one candidate)</p></dd>
+<dt>party1</dt><dd><p>Party of winning candidate</p></dd>
+<dt>votes1</dt><dd><p>Number of votes for winning candidate</p></dd>
+<dt>name2</dt><dd><p>Name of candidate with second most votes</p></dd>
+<dt>perc2</dt><dd><p>Percentage of vote for candidate who came in second</p></dd>
+<dt>party2</dt><dd><p>Party of candidate with second most votes</p></dd>
+<dt>votes2</dt><dd><p>Number of votes for candidate who came in second</p></dd>
+<dt>name3</dt><dd><p>Name of candidate with third most votes</p></dd>
+<dt>perc3</dt><dd><p>Percentage of vote for candidate who came in third</p></dd>
+<dt>party3</dt><dd><p>Party of candidate with third most votes</p></dd>
+<dt>votes3</dt><dd><p>Number of votes for candidate who came in third</p></dd>
+<dt>name4</dt><dd><p>Name of candidate with fourth most votes</p></dd>
+<dt>perc4</dt><dd><p>Percentage of vote for candidate who came in fourth</p></dd>
+<dt>party4</dt><dd><p>Party of candidate with fourth most votes</p></dd>
+<dt>votes4</dt><dd><p>Number of votes for candidate who came in fourth</p></dd>
+<dt>name5</dt><dd><p>Name of candidate with fifth most votes</p></dd>
+<dt>perc5</dt><dd><p>Percentage of vote for candidate who came in fifth</p></dd>
+<dt>party5</dt><dd><p>Party of candidate with fifth most votes</p></dd>
+<dt>votes5</dt><dd><p>Number of votes for candidate who came in fifth</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>MSNBC.com, retrieved 2010-11-09.</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='kw'><a href='http://ggplot2.tidyverse.org'>ggplot2</a></span>)
+
+<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='kw'>senaterace10</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(x = <span class='kw'>perc1</span>)) <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_histogram.html'>geom_histogram</a></span>(binwidth = <span class='fl'>5</span>) <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span>(x = <span class='st'>"Winning candidate vote percentage"</span>)</div><div class='output co'>#&gt; <span class='warning'>Warning: Removed 1 rows containing non-finite values (stat_bin).</span></div><div class='img'><img src='senaterace10-1.png' alt='' width='700' height='433' /></div><div class='input'></div></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
