@@ -18,9 +18,15 @@ navbar:
 reference:
 - title: Datasets
   contents:
-  - county
   - county_complete
+  - county
+  - govrace10
+  - houserace10
+  - prrace08
+  - senaterace10
   - state_stats
+  - urban_rural_pop
+  - vote_nsa
 
 - title: Functions
   contents:
