@@ -62,7 +62,7 @@
 #'   \item{broadband_2017}{Percent of population who has access to broadband (2017).}
 #'   \item{computer_2017}{Percent of population who has access to a computer (2017).}
 #'   \item{housing_units_2010}{Number of housing units (2010).}
-#'   \item{homeownership_2010}{Homeownership rate (2006-2010).}
+#'   \item{homeownership_2010}{Home ownership rate (2006-2010).}
 #'   \item{housing_multi_unit_2010}{Housing units in multi-unit structures (2006-2010).}
 #'   \item{median_val_owner_occupied_2010}{Median value of owner-occupied housing units (2006-2010).}
 #'   \item{households_2010}{Households (2006-2010).}

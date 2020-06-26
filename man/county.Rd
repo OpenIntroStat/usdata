@@ -14,7 +14,7 @@ A data frame with 3142 observations on the following 14 variables.
 \item{pop2017}{Population in 2017.}
 \item{pop_change}{Population change from 2010 to 2017.}
 \item{poverty}{Percent of population in poverty in 2017.}
-\item{homeownership}{Homeownership rate, 2006-2010.}
+\item{homeownership}{Home ownership rate, 2006-2010.}
 \item{multi_unit}{Percent of housing units in multi-unit structures,
 2006-2010.}
 \item{unemployment_rate}{Unemployment rate in 2017.}

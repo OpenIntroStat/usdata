@@ -12,7 +12,7 @@ A data frame with 51 observations on the following 23 variables.
 \item{fips}{FIPS code.}
 \item{pop2010}{Population in 2010.}
 \item{pop2000}{Population in 2000.}
-\item{homeownership}{Homeownership rate.}
+\item{homeownership}{Home ownership rate.}
 \item{multiunit}{Percent of living units that are in multi-unit
 structures.}
 \item{income}{Average income per capita.}

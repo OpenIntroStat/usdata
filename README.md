@@ -73,7 +73,7 @@ version. By default, the search will be pre-populated with `is:issue
 is:open`. You can [edit the
 qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/)
 (e.g. `is:pr`, `is:closed`) as needed. For example, you’d simply remove
-`is:open` to search *all* issues in the repo, open or closed.
+`is:open` to search *all* issues in the repository, open or closed.
 
 ## Code of Conduct
 
