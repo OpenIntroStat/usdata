@@ -1,3 +1,9 @@
+## Resubmission
+
+This is a resubmission. In this version I have added David Diez as an author to the package.
+
+Note that I have not added a single web reference for the data source in the Description as the package contains data from various sources, each of which are documented in the respective help files under source or reference tags (or both).
+  
 ## Test environments
 
 * local OS X install, R 4.0.1
