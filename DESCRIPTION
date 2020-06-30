@@ -9,7 +9,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-6452-2420")),
     person(given = "David", 
            family = "Diez", 
-           email = "david.m.diez@gmail.com", 
+           email = "david@openintro.org", 
            role = c("aut"))
     )
 Description: Demographic data on the United States at the county and state levels spanning multiple years.

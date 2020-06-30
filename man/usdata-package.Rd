@@ -21,7 +21,7 @@ Useful links:
 
 Authors:
 \itemize{
-  \item David Diez \email{david.m.diez@gmail.com}
+  \item David Diez \email{david@openintro.org}
 }
 
 }
