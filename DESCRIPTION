@@ -1,12 +1,17 @@
 Package: usdata
 Title: Data on the States and Counties of the United States
 Version: 0.1.0
-Authors@R: 
+Authors@R: c(
     person(given = "Mine",
            family = "Çetinkaya-Rundel",
-           role = c("aut", "cre"),
-           email = "cetinkaya.mine@gmail.com",
-           comment = c(ORCID = "0000-0001-6452-2420"))
+           email = "cetinkaya.mine@gmail.com", 
+           role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-6452-2420")),
+    person(given = "David", 
+           family = "Diez", 
+           email = "david.m.diez@gmail.com", 
+           role = c("aut"))
+    )
 Description: Demographic data on the United States at the county and state levels spanning multiple years.
 License: GPL-3
 Encoding: UTF-8

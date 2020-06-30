@@ -19,5 +19,10 @@ Useful links:
 \author{
 \strong{Maintainer}: Mine Çetinkaya-Rundel \email{cetinkaya.mine@gmail.com} (\href{https://orcid.org/0000-0001-6452-2420}{ORCID})
 
+Authors:
+\itemize{
+  \item David Diez \email{david.m.diez@gmail.com}
+}
+
 }
 \keyword{internal}
