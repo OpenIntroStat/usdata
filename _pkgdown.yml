@@ -27,6 +27,7 @@ reference:
   - state_stats
   - urban_rural_pop
   - vote_nsa
+  - voter_count
 
 - title: Functions
   contents:
