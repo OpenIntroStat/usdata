@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>United States Counties — county • usdata</title>
+<title>US Voter Turnout Data. — voter_count • usdata</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,9 @@
 
 
 
-<meta property="og:title" content="United States Counties — county" />
-<meta property="og:description" content="Data for 3142 counties in the United States. See the
-county_complete data set for additional variables." />
+<meta property="og:title" content="US Voter Turnout Data. — voter_count" />
+<meta property="og:description" content="State-level data on federal elections held in November
+between 1980 and 2014." />
 
 
 
@@ -103,59 +103,47 @@ county_complete data set for additional variables." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>United States Counties</h1>
-    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-county.R'><code>R/data-county.R</code></a></small>
-    <div class="hidden name"><code>county.Rd</code></div>
+    <h1>US Voter Turnout Data.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-voter_count.R'><code>R/data-voter_count.R</code></a></small>
+    <div class="hidden name"><code>voter_count.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Data for 3142 counties in the United States. See the
-<code><a href='county_complete.html'>county_complete</a></code> data set for additional variables.</p>
+    <p>State-level data on federal elections held in November
+between 1980 and 2014.</p>
     </div>
 
-    <pre class="usage"><span class='kw'>county</span></pre>
+    <pre class="usage"><span class='kw'>voter_count</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 3142 observations on the following 14 variables.</p><dl>
-<dt>name</dt><dd><p>County names.</p></dd>
-<dt>state</dt><dd><p>State names.</p></dd>
-<dt>pop2000</dt><dd><p>Population in 2000.</p></dd>
-<dt>pop2010</dt><dd><p>Population in 2010.</p></dd>
-<dt>pop2017</dt><dd><p>Population in 2017.</p></dd>
-<dt>pop_change</dt><dd><p>Population change from 2010 to 2017.</p></dd>
-<dt>poverty</dt><dd><p>Percent of population in poverty in 2017.</p></dd>
-<dt>homeownership</dt><dd><p>Home ownership rate, 2006-2010.</p></dd>
-<dt>multi_unit</dt><dd><p>Percent of housing units in multi-unit structures,
-2006-2010.</p></dd>
-<dt>unemployment_rate</dt><dd><p>Unemployment rate in 2017.</p></dd>
-<dt>metro</dt><dd><p>Whether the county contains a metropolitan area.</p></dd>
-<dt>median_edu</dt><dd><p>Median education level (2013-2017).</p></dd>
-<dt>per_capita_income</dt><dd><p>Per capita (per person) income
-(2013-2017).</p></dd>
-<dt>median_hh_income</dt><dd><p>Median household income.</p></dd>
-<dt>smoking_ban</dt><dd><p>Describes whether the type of county-level
-smoking ban in place in 2010, taking one of the values <code>"none"</code>,
-<code>"partial"</code>, or <code>"comprehensive"</code>.</p></dd>
+    <p>A data frame with 936 rows and 7 variables.</p><dl>
+<dt>year</dt><dd><p>Year election was held.</p></dd>
+<dt>region</dt><dd><p>Specifies if data is state or national total.</p></dd>
+<dt>voting_eligible_population</dt><dd><p>Number of citizens eligible to vote; does not count felons.</p></dd>
+<dt>total_ballots_counted</dt><dd><p>Number of ballots cast.</p></dd>
+<dt>highest_office</dt><dd><p>Number of ballots that contained a vote for the highest office of that election.</p></dd>
+<dt>percent_total_ballots_counted</dt><dd><p>Overall voter turnout percentage.</p></dd>
+<dt>percent_highest_office</dt><dd><p>Highest office voter turnout percentage.</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>These data were collected from Census Quick Facts (no longer
-available as of 2020) and its accompanying pages. Smoking ban data were from
-a variety of sources.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><code><a href='county_complete.html'>county_complete</a></code></p></div>
+    <p><a href='http://www.electproject.org/home/voter-turnout/voter-turnout-data'>United States Election Project</a></p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='kw'><a href='http://ggplot2.tidyverse.org'>ggplot2</a></span>)
 
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='kw'>county</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(x = <span class='kw'>median_edu</span>, y = <span class='kw'>median_hh_income</span>)) <span class='op'>+</span>
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_boxplot.html'>geom_boxplot</a></span>()</div><div class='output co'>#&gt; <span class='warning'>Warning: Removed 2 rows containing non-finite values (stat_boxplot).</span></div><div class='img'><img src='county-1.png' alt='' width='700' height='433' /></div><div class='input'></div></pre>
+<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='kw'>voter_count</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(x = <span class='kw'>percent_highest_office</span>, y = <span class='kw'>percent_total_ballots_counted</span>)) <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span>() <span class='op'>+</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span>(
+    title = <span class='st'>"Total Ballots V Highest Office"</span>,
+    x = <span class='st'>"Highest Office"</span>,
+    y = <span class='st'>"Total Ballots"</span>
+  )</div><div class='output co'>#&gt; <span class='warning'>Warning: Removed 223 rows containing missing values (geom_point).</span></div><div class='img'><img src='voter_count-1.png' alt='' width='700' height='433' /></div><div class='input'></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
