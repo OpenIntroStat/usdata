@@ -18,14 +18,14 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(voter_count,
-#'   aes(percent_highest_office, percent_total_ballots_counted))+
-#'  geom_point()+
-#'  labs(title = "Total Ballots V Highest Office",
-#'   x = "Highest Office",
-#'   y = "Total Ballots")
+#' ggplot(voter_count, aes(x = percent_highest_office, y = percent_total_ballots_counted)) +
+#'   geom_point() +
+#'   labs(
+#'     title = "Total Ballots V Highest Office",
+#'     x = "Highest Office",
+#'     y = "Total Ballots"
+#'   )
 #'
-#' @source
-#'   \href{http://www.electproject.org/home/voter-turnout/voter-turnout-data}{United States Election Project}
+#' @source \href{http://www.electproject.org/home/voter-turnout/voter-turnout-data}{United States Election Project}
 #'
 "voter_count"

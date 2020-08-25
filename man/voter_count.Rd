@@ -30,12 +30,13 @@ between 1980 and 2014.
 
 library(ggplot2)
 
-ggplot(voter_count,
-  aes(percent_highest_office, percent_total_ballots_counted))+
- geom_point()+
- labs(title = "Total Ballots V Highest Office",
-  x = "Highest Office",
-  y = "Total Ballots")
+ggplot(voter_count, aes(x = percent_highest_office, y = percent_total_ballots_counted)) +
+  geom_point() +
+  labs(
+    title = "Total Ballots V Highest Office",
+    x = "Highest Office",
+    y = "Total Ballots"
+  )
 
 }
 \keyword{datasets}
