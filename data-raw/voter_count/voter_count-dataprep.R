@@ -1,10 +1,14 @@
+# load packages ----------------------------------------------------------------
+
 library(readr)
+library(usethis)
+library(here)
 
 # load data --------------------------------------------------------------------
 
-voter_count <- read.csv("november_voter_turnout.csv")
+voter_count <- read_csv(here::here("data-raw/voter_count", "november_voter_turnout.csv"))
 
-# cleaning: Change incorrect 0's values to NA
+# clean data: Change incorrect 0's values to NA --------------------------------
 
 voter_count[voter_count == 0] <- NA
 
