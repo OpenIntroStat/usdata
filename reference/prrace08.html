@@ -45,6 +45,8 @@
 
 
 
+
+
 <!-- mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script>
@@ -56,9 +58,15 @@
 
 
 
+  
+
+  
+
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -72,7 +80,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">usdata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0.9000</span>
       </span>
     </div>
 
@@ -111,7 +119,7 @@
     <p>Election results for the 2008 U.S. Presidential race</p>
     </div>
 
-    <pre class="usage"><span class='kw'>prrace08</span></pre>
+    <pre class="usage"><span class='va'>prrace08</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -139,13 +147,14 @@ electoral votes were a winner-take-all.</p>
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
 <span class='co'>#===&gt; Obtain 2010 US House Election Data &lt;===#</span>
-<span class='kw'>hr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/table.html'>table</a></span>(<span class='kw'>houserace10</span>[,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"abbr"</span>, <span class='st'>"party1"</span>)])
-<span class='kw'>nr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/apply.html'>apply</a></span>(<span class='kw'>hr</span>, <span class='fl'>1</span>, <span class='kw'>sum</span>)
+<span class='va'>hr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/table.html'>table</a></span><span class='op'>(</span><span class='va'>houserace10</span><span class='op'>[</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"abbr"</span>, <span class='st'>"party1"</span><span class='op'>)</span><span class='op'>]</span><span class='op'>)</span>
+<span class='va'>nr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/apply.html'>apply</a></span><span class='op'>(</span><span class='va'>hr</span>, <span class='fl'>1</span>, <span class='va'>sum</span><span class='op'>)</span>
 
 <span class='co'>#===&gt; Obtain 2008 President Election Data &lt;===#</span>
-<span class='kw'>pr</span>   <span class='op'>&lt;-</span> <span class='kw'>prrace08</span>[<span class='kw'>prrace08</span><span class='op'>$</span><span class='kw'>state</span> != <span class='st'>"DC"</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"state"</span>, <span class='st'>"p_obama"</span>)]
-<span class='kw'>hr</span>   <span class='op'>&lt;-</span> <span class='kw'>hr</span>[<span class='fu'><a href='https://rdrr.io/r/base/character.html'>as.character</a></span>(<span class='kw'>pr</span><span class='op'>$</span><span class='kw'>state</span>),]
-(<span class='kw'>fit</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/glm.html'>glm</a></span>(<span class='kw'>hr</span> <span class='op'>~</span> <span class='kw'>pr</span><span class='op'>$</span><span class='kw'>p_obama</span>, family=<span class='kw'>binomial</span>))</div><div class='output co'>#&gt; 
+<span class='va'>pr</span>   <span class='op'>&lt;-</span> <span class='va'>prrace08</span><span class='op'>[</span><span class='va'>prrace08</span><span class='op'>$</span><span class='va'>state</span> <span class='op'>!=</span> <span class='st'>"DC"</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"state"</span>, <span class='st'>"p_obama"</span><span class='op'>)</span><span class='op'>]</span>
+<span class='va'>hr</span>   <span class='op'>&lt;-</span> <span class='va'>hr</span><span class='op'>[</span><span class='fu'><a href='https://rdrr.io/r/base/character.html'>as.character</a></span><span class='op'>(</span><span class='va'>pr</span><span class='op'>$</span><span class='va'>state</span><span class='op'>)</span>,<span class='op'>]</span>
+<span class='op'>(</span><span class='va'>fit</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/glm.html'>glm</a></span><span class='op'>(</span><span class='va'>hr</span> <span class='op'>~</span> <span class='va'>pr</span><span class='op'>$</span><span class='va'>p_obama</span>, family<span class='op'>=</span><span class='va'>binomial</span><span class='op'>)</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; 
 #&gt; Call:  glm(formula = hr ~ pr$p_obama, family = binomial)
 #&gt; 
 #&gt; Coefficients:
@@ -156,19 +165,23 @@ electoral votes were a winner-take-all.</p>
 #&gt; Null Deviance:	    107.4 
 #&gt; Residual Deviance: 48.72 	AIC: 138.7</div><div class='input'>
 <span class='co'>#===&gt; Visualizing Binomial outcomes &lt;===#</span>
-<span class='kw'>x</span>  <span class='op'>&lt;-</span> <span class='kw'>pr</span><span class='op'>$</span><span class='kw'>p_obama</span>[<span class='kw'>pr</span><span class='op'>$</span><span class='kw'>state</span> != <span class='st'>"DC"</span>]
-<span class='kw'>nr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/apply.html'>apply</a></span>(<span class='kw'>hr</span>, <span class='fl'>1</span>, <span class='kw'>sum</span>)
-<span class='fu'><a href='https://rdrr.io/r/graphics/plot.default.html'>plot</a></span>(<span class='kw'>x</span>, <span class='kw'>hr</span>[,<span class='st'>"Democrat"</span>]<span class='op'>/</span><span class='kw'>nr</span>, pch=<span class='fl'>19</span>, cex=<span class='fu'><a href='https://rdrr.io/r/base/MathFun.html'>sqrt</a></span>(<span class='kw'>nr</span>), col=<span class='st'>"#22558844"</span>,
-    xlim=<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>20</span>, <span class='fl'>80</span>), ylim=<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>0</span>, <span class='fl'>1</span>), xlab=<span class='st'>"Percent vote for Obama in 2008"</span>,
-    ylab=<span class='st'>"Probability of Democrat winning House seat"</span>)</div><div class='input'>
+<span class='va'>x</span>  <span class='op'>&lt;-</span> <span class='va'>pr</span><span class='op'>$</span><span class='va'>p_obama</span><span class='op'>[</span><span class='va'>pr</span><span class='op'>$</span><span class='va'>state</span> <span class='op'>!=</span> <span class='st'>"DC"</span><span class='op'>]</span>
+<span class='va'>nr</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/apply.html'>apply</a></span><span class='op'>(</span><span class='va'>hr</span>, <span class='fl'>1</span>, <span class='va'>sum</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/graphics/plot.default.html'>plot</a></span><span class='op'>(</span><span class='va'>x</span>, <span class='va'>hr</span><span class='op'>[</span>,<span class='st'>"Democrat"</span><span class='op'>]</span><span class='op'>/</span><span class='va'>nr</span>, pch<span class='op'>=</span><span class='fl'>19</span>, cex<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/MathFun.html'>sqrt</a></span><span class='op'>(</span><span class='va'>nr</span><span class='op'>)</span>, col<span class='op'>=</span><span class='st'>"#22558844"</span>,
+    xlim<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>20</span>, <span class='fl'>80</span><span class='op'>)</span>, ylim<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='fl'>1</span><span class='op'>)</span>, xlab<span class='op'>=</span><span class='st'>"Percent vote for Obama in 2008"</span>,
+    ylab<span class='op'>=</span><span class='st'>"Probability of Democrat winning House seat"</span><span class='op'>)</span>
+</div><div class='input'>
 <span class='co'>#===&gt; Logistic Regression &lt;===#</span>
-<span class='kw'>x1</span> <span class='op'>&lt;-</span> <span class='kw'>pr</span><span class='op'>$</span><span class='kw'>p_obama</span>[<span class='fu'><a href='https://rdrr.io/r/base/match.html'>match</a></span>(<span class='kw'>houserace10</span><span class='op'>$</span><span class='kw'>abbr</span>, <span class='kw'>pr</span><span class='op'>$</span><span class='kw'>state</span>)]
-<span class='kw'>y1</span> <span class='op'>&lt;-</span> (<span class='kw'>houserace10</span><span class='op'>$</span><span class='kw'>party1</span> <span class='op'>==</span> <span class='st'>"Democrat"</span>)<span class='op'>+</span><span class='fl'>0</span>
-<span class='kw'>g</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/glm.html'>glm</a></span>(<span class='kw'>y1</span> <span class='op'>~</span> <span class='kw'>x1</span>, family=<span class='kw'>binomial</span>)
-<span class='kw'>X</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span>(<span class='fl'>0</span>, <span class='fl'>100</span>, <span class='fl'>0.1</span>)
-<span class='kw'>lo</span> <span class='op'>&lt;-</span> <span class='op'>-</span><span class='fl'>5.6079</span> <span class='op'>+</span> <span class='fl'>0.1009</span><span class='op'>*</span><span class='kw'>X</span>
-<span class='kw'>p</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/Log.html'>exp</a></span>(<span class='kw'>lo</span>)<span class='op'>/</span>(<span class='fl'>1</span><span class='op'>+</span><span class='fu'><a href='https://rdrr.io/r/base/Log.html'>exp</a></span>(<span class='kw'>lo</span>))
-<span class='fu'><a href='https://rdrr.io/r/graphics/lines.html'>lines</a></span>(<span class='kw'>X</span>, <span class='kw'>p</span>)</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/graphics/abline.html'>abline</a></span>(h=<span class='fl'>0</span><span class='op'>:</span><span class='fl'>1</span>, lty=<span class='fl'>2</span>, col=<span class='st'>"#888888"</span>)</div><div class='img'><img src='prrace08-1.png' alt='' width='700' height='433' /></div><div class='input'></div></pre>
+<span class='va'>x1</span> <span class='op'>&lt;-</span> <span class='va'>pr</span><span class='op'>$</span><span class='va'>p_obama</span><span class='op'>[</span><span class='fu'><a href='https://rdrr.io/r/base/match.html'>match</a></span><span class='op'>(</span><span class='va'>houserace10</span><span class='op'>$</span><span class='va'>abbr</span>, <span class='va'>pr</span><span class='op'>$</span><span class='va'>state</span><span class='op'>)</span><span class='op'>]</span>
+<span class='va'>y1</span> <span class='op'>&lt;-</span> <span class='op'>(</span><span class='va'>houserace10</span><span class='op'>$</span><span class='va'>party1</span> <span class='op'>==</span> <span class='st'>"Democrat"</span><span class='op'>)</span><span class='op'>+</span><span class='fl'>0</span>
+<span class='va'>g</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/glm.html'>glm</a></span><span class='op'>(</span><span class='va'>y1</span> <span class='op'>~</span> <span class='va'>x1</span>, family<span class='op'>=</span><span class='va'>binomial</span><span class='op'>)</span>
+<span class='va'>X</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='fl'>100</span>, <span class='fl'>0.1</span><span class='op'>)</span>
+<span class='va'>lo</span> <span class='op'>&lt;-</span> <span class='op'>-</span><span class='fl'>5.6079</span> <span class='op'>+</span> <span class='fl'>0.1009</span><span class='op'>*</span><span class='va'>X</span>
+<span class='va'>p</span>  <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/Log.html'>exp</a></span><span class='op'>(</span><span class='va'>lo</span><span class='op'>)</span><span class='op'>/</span><span class='op'>(</span><span class='fl'>1</span><span class='op'>+</span><span class='fu'><a href='https://rdrr.io/r/base/Log.html'>exp</a></span><span class='op'>(</span><span class='va'>lo</span><span class='op'>)</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/graphics/lines.html'>lines</a></span><span class='op'>(</span><span class='va'>X</span>, <span class='va'>p</span><span class='op'>)</span>
+</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/graphics/abline.html'>abline</a></span><span class='op'>(</span>h<span class='op'>=</span><span class='fl'>0</span><span class='op'>:</span><span class='fl'>1</span>, lty<span class='op'>=</span><span class='fl'>2</span>, col<span class='op'>=</span><span class='st'>"#888888"</span><span class='op'>)</span>
+</div><div class='img'><img src='prrace08-1.png' alt='' width='700' height='433' /></div><div class='input'>
+</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -184,7 +197,7 @@ electoral votes were a winner-take-all.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.9000.</p>
 </div>
 
       </footer>
@@ -192,6 +205,8 @@ electoral votes were a winner-take-all.</p>
 
   
 
+
+  
 
   </body>
 </html>
