@@ -20,11 +20,13 @@ reference:
   contents:
   - county_complete
   - county
+  - county_2019
   - govrace10
   - houserace10
   - prrace08
   - senaterace10
   - state_stats
+  - urban_owner
   - urban_rural_pop
   - vote_nsa
   - voter_count
