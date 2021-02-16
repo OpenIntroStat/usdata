@@ -109,13 +109,11 @@
 #' @seealso \code{\link{county}}, \code{\link{county_complete}}
 #' @examples
 #'
-#' library(dplyr)
 #' library(ggplot2)
 #'
-#' county_2019 %>%
-#'   ggplot(aes(x = hs_grad,
-#'              y = median_individual_income,
-#'              size = sqrt(pop) / 1e3)) +
+#' ggplot(county_2019,
+#'        aes(x = hs_grad, y = median_individual_income,
+#'        size = sqrt(pop) / 1000)) +
 #'   geom_point(alpha = 0.5) +
 #'   scale_color_discrete(na.translate = FALSE) +
 #'   guides(size = FALSE) +
