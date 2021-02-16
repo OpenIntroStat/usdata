@@ -1,0 +1,124 @@
+#' American Community Survey 2019
+#'
+#' Data for 3142 counties in the United States with many variables
+#' of the 2019 American Community Survey.
+#'
+#'
+#' @name county_2019
+#' @docType data
+#' @format A data frame with 3142 observations on the following 95 variables.
+#' \describe{
+#'   \item{state}{State.}
+#'   \item{name}{County name.}
+#'   \item{fips}{FIPS code.}
+#'   \item{median_individual_income}{Median individual income (2019).}
+#'   \item{median_individual_income_moe}{Margin of error for \code{median_individual_income}.}
+#'   \item{pop}{2019 population.}
+#'   \item{pop_moe}{Margin of error for \code{pop}.}
+#'   \item{white}{Percent of population that is white alone (2015-2019).}
+#'   \item{white_moe}{Margin of error for \code{white}.}
+#'   \item{black}{Percent of population that is black alone (2015-2019).}
+#'   \item{black_moe}{Margin of error for \code{black}.}
+#'   \item{native}{Percent of population that is Native American alone (2015-2019).}
+#'   \item{native_moe}{Margin of error for \code{native}.}
+#'   \item{asian}{Percent of population that is Asian alone (2015-2019).}
+#'   \item{asian_moe}{Margin of error for \code{asian}.}
+#'   \item{pac_isl}{Percent of population that is Native Hawaiian or other Pacific Islander alone (2015-2019).}
+#'   \item{pac_isl_moe}{Margin of error for \code{pac_isl}.}
+#'   \item{other_single_race}{Percent of population that is some other race alone  (2015-2019).}
+#'   \item{other_single_race_moe}{Margin of error for \code{other_single_race}.}
+#'   \item{two_plus_races}{Percent of population that is two or more races (2015-2019).}
+#'   \item{two_plus_races_moe}{Margin of error for \code{two_plus_races}.}
+#'   \item{hispanic}{Percent of population that identifies as Hispanic or Latino (2015-2019).}
+#'   \item{hispanic_moe}{Margin of error for \code{hispanic}.}
+#'   \item{white_not_hispanic}{Percent of population that is white alone, not Hispanic or Latino (2015-2019).}
+#'   \item{white_not_hispanic_moe}{Margin of error for \code{white_not_hispanic}.}
+#'   \item{median_age}{Median age (2015-2019).}
+#'   \item{median_age_moe}{Margin of error for \code{median_age}.}
+#'   \item{age_under_5}{Percent of population under 5 (2015-2019).}
+#'   \item{age_under_5_moe}{Margin of error for \code{age_under_5}.}
+#'   \item{age_over_85}{Percent of population 85 and over (2015-2019).}
+#'   \item{age_over_85_moe}{Margin of error for \code{age_over_85}.}
+#'   \item{age_over_18}{Percent of population 18 and over (2015-2019).}
+#'   \item{age_over_18_moe}{Margin of error for \code{age_over_18}.}
+#'   \item{age_over_65}{Percent of population 65 and over (2015-2019).}
+#'   \item{age_over_65_moe}{Margin of error for \code{age_over_65}.}
+#'   \item{mean_work_travel}{Mean travel time to work (2015-2019).}
+#'   \item{mean_work_travel_moe}{Margin of error for \code{mean_work_travel}.}
+#'   \item{persons_per_household}{Persons per household (2015-2019)}
+#'   \item{persons_per_household_moe}{Margin of error for \code{persons_per_household}.}
+#'   \item{avg_family_size}{Average family size (2015-2019).}
+#'   \item{avg_family_size_moe}{Margin of error for \code{avg_family_size}.}
+#'   \item{housing_one_unit_structures}{Percent of housing units in 1-unit structures (2015-2019).}
+#'   \item{housing_one_unit_structures_moe}{Margin of error for \code{housing_one_unit_structures}.}
+#'   \item{housing_two_unit_structures}{Percent of housing units in multi-unit structures (2015-2019).}
+#'   \item{housing_two_unit_structures_moe}{Margin of error for \code{housing_two_unit_structures}.}
+#'   \item{housing_mobile_homes}{Percent of housing units in mobile homes and other types of units (2015-2019).}
+#'   \item{housing_mobile_homes_moe}{Margin of error for \code{housing_mobile_homes}.}
+#'   \item{median_individual_income_age_25plus}{Median individual income (2019 dollars, 2015-2019).}
+#'   \item{median_individual_income_age_25plus_moe}{Margin of error for \code{median_individual_income_age_25plus}.}
+#'   \item{hs_grad}{Percent of population 25 and older that is a high school graduate (2015-2019).}
+#'   \item{hs_grad_moe}{Margin of error for \code{hs_grad}.}
+#'   \item{bachelors}{Percent of population 25 and older that earned a Bachelor's degree or higher (2015-2019).}
+#'   \item{bachelors_moe}{Margin of error for \code{bachelors}.}
+#'   \item{households}{Total households (2015-2019).}
+#'   \item{households_moe}{Margin of error for \code{households}.}
+#'   \item{households_speak_spanish}{Percent of households speaking Spanish (2015-2019).}
+#'   \item{households_speak_spanish_moe}{Margin of error for \code{households_speak_spanish}.}
+#'   \item{households_speak_other_indo_euro_lang}{Percent of households speaking other Indo-European language (2015-2019).}
+#'   \item{households_speak_other_indo_euro_lang_moe}{Margin of error for \code{households_speak_other_indo_euro_lang}.}
+#'   \item{households_speak_asian_or_pac_isl}{Percent of households speaking Asian and Pacific Island language (2015-2019).}
+#'   \item{households_speak_asian_or_pac_isl_moe}{Margin of error for \code{households_speak_asian_or_pac_isl}.}
+#'   \item{households_speak_other}{Percent of households speaking non European or Asian/Pacific Island language (2015-2019).}
+#'   \item{households_speak_other_moe}{Margin of error for \code{households_speak_other}.}
+#'   \item{households_speak_limited_english}{Percent of limited English-speaking households (2015-2019).}
+#'   \item{households_speak_limited_english_moe}{Margin of error for \code{households_speak_limited_english}.}
+#'   \item{poverty}{Percent of population below the poverty level (2015-2019).}
+#'   \item{poverty_moe}{Margin of error for \code{poverty}.}
+#'   \item{poverty_under_18}{Percent of population under 18 below the poverty level (2015-2019).}
+#'   \item{poverty_under_18_moe}{Margin of error for \code{poverty_under_18}.}
+#'   \item{poverty_65_and_over}{Percent of population 65 and over below the poverty level (2015-2019).}
+#'   \item{poverty_65_and_over_moe}{Margin of error for \code{poverty_65_and_over}.}
+#'   \item{mean_household_income}{Mean household income (2019 dollars, 2015-2019).}
+#'   \item{mean_household_income_moe}{Margin of error for \code{mean_household_income}.}
+#'   \item{per_capita_income}{Per capita money income in past 12 months (2019 dollars, 2015-2019).}
+#'   \item{per_capita_income_moe}{Margin of error for \code{per_capita_income}.}
+#'   \item{median_household_income}{Median household income (2015-2019).}
+#'   \item{median_household_income_moe}{Margin of error for \code{median_household_income}.}
+#'   \item{veterans}{Percent among civilian population 18 and over that are veterans (2015-2019).}
+#'   \item{veterans_moe}{Margin of error for \code{veterans}.}
+#'   \item{unemployment_rate}{Unemployment rate among those ages 20-64 (2015-2019).}
+#'   \item{unemployment_rate_moe}{Margin of error for \code{unemployment_rate}.}
+#'   \item{uninsured}{Percent of civilian noninstitutionalized population that is uninsured (2015-2019).}
+#'   \item{uninsured_moe}{Margin of error for \code{uninsured}.}
+#'   \item{uninsured_under_6}{Percent of population under 6 years that is uninsured (2015-2019).}
+#'   \item{uninsured_under_6_moe}{Margin of error for \code{uninsured_under_6}.}
+#'   \item{uninsured_under_19}{Percent of population under 19 that is uninsured (2015-2019).}
+#'   \item{uninsured_under_19_moe}{Margin of error for \code{uninsured_under_19}.}
+#'   \item{uninsured_65_and_older}{Percent of population 65 and older that is uninsured (2015-2019).}
+#'   \item{uninsured_65_and_older_moe}{Margin of error for \code{uninsured_65_and_older}.}
+#'   \item{household_has_computer}{Percent of households that have desktop or laptop computer (2015-2019).}
+#'   \item{household_has_computer_moe}{Margin of error for \code{household_has_computer}.}
+#'   \item{household_has_smartphone}{Percent of households that have smartphone (2015-2019).}
+#'   \item{household_has_smartphone_moe}{Margin of error for \code{household_has_smartphone}.}
+#'   \item{household_has_broadband}{Percent of households that have broadband internet subscription (2015-2019).}
+#'   \item{household_has_broadband_moe}{Margin of error for \code{household_has_broadband}.}
+#'   }
+#' @source The data were downloaded via the \code{tidycensus} R package.
+#' @keywords datasets
+#' @seealso \code{\link{county}}, \code{\link{county_complete}}
+#' @examples
+#'
+#' library(ggplot2)
+#'
+#' ggplot(county_2019,
+#'        aes(x = hs_grad, y = median_individual_income,
+#'        size = sqrt(pop) / 1000)) +
+#'   geom_point(alpha = 0.5) +
+#'   scale_color_discrete(na.translate = FALSE) +
+#'   guides(size = FALSE) +
+#'   labs(
+#'     x = "Percentage of population graduated from high school",
+#'     y = "Median individual income"
+#'   )
+"county_2019"

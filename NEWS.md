@@ -1,5 +1,8 @@
 # usdata (development version)
 
+* Extended county_complete for new ACS 2019 data.
+* Added a county_2019 data set for many ACS 2019 variables.
+
 # usdata 0.1.0
 
 * Added a `NEWS.md` file to track changes to the package.
