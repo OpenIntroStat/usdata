@@ -10,7 +10,11 @@ Authors@R: c(
     person(given = "David", 
            family = "Diez", 
            email = "david@openintro.org", 
-           role = c("aut"))
+           role = c("aut")),
+    person(given = "Leah", 
+           family = "Dorazio", 
+           email = "leah.dorazio@sfuhs.org", 
+           role = c("aut"))    
     )
 Description: Demographic data on the United States at the county and state levels spanning multiple years.
 License: GPL-3

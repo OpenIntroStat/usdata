@@ -22,6 +22,7 @@ Useful links:
 Authors:
 \itemize{
   \item David Diez \email{david@openintro.org}
+  \item Leah Dorazio \email{leah.dorazio@sfuhs.org}
 }
 
 }
