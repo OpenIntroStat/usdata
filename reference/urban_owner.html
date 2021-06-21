@@ -80,7 +80,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">usdata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -119,7 +119,7 @@
     <p>Census data for the 50 states plus DC and Puerto Rico.</p>
     </div>
 
-    <pre class="usage"><span class='va'>urban_owner</span></pre>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='va'>urban_owner</span></code></pre></div>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
@@ -161,29 +161,30 @@
     <p>US Census.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'>
-<span class='va'>urban_owner</span>
-</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 52 x 28</span><span>
-#&gt;    state total_housing_u… total_housing_u… pct_vacant occupied pct_owner_occup…
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;fct&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;fct&gt;</span><span>            </span><span style='color: #555555;font-style: italic;'>&lt;fct&gt;</span><span>                 </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;fct&gt;</span><span>               </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'> 1</span><span> Alab… 1,963,711        2,171,853              13.3 1,883,7…             69.7
-#&gt; </span><span style='color: #555555;'> 2</span><span> Alas… 260,978          306,967                15.9 258,058              63.1
-#&gt; </span><span style='color: #555555;'> 3</span><span> Ariz… 2,189,189        2,844,526              16.3 2,380,9…             66  
-#&gt; </span><span style='color: #555555;'> 4</span><span> Arka… 1,173,043        1,316,299              12.9 1,147,0…             67  
-#&gt; </span><span style='color: #555555;'> 5</span><span> Cali… 12,214,549       13,680,081              8.1 12,577,…             55.9
-#&gt; </span><span style='color: #555555;'> 6</span><span> Colo… 1,808,037        2,212,898              10.8 1,972,8…             65.5
-#&gt; </span><span style='color: #555555;'> 7</span><span> Conn… 1,385,975        1,487,891               7.9 1,371,0…             67.5
-#&gt; </span><span style='color: #555555;'> 8</span><span> Dela… 343,072          405,885                15.7 342,297              72.1
-#&gt; </span><span style='color: #555555;'> 9</span><span> Dist… 274,845          296,719                10.1 266,707              42  
-#&gt; </span><span style='color: #555555;'>10</span><span> Flor… 7,302,947        8,989,580              17.5 7,420,8…             67.4
-#&gt; </span><span style='color: #555555;'># … with 42 more rows, and 22 more variables: pop_st </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span style='color: #555555;'>, area_st </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   pop_urban </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span style='color: #555555;'>, poppct_urban </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, area_urban </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, areapct_urban </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   popden_urban </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, pop_ua </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span style='color: #555555;'>, poppct_urban_1 </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, area_ua </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   areapct_ua </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, popden_ua </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, pop_uc </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span style='color: #555555;'>, poppct_uc </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   area_uc </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, areapct_uc </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, popden_uc </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, pop_rural </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   poppct_rural </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, area_rural </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>, areapct_rural </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #555555;'>,</span><span>
-#&gt; </span><span style='color: #555555;'>#   popden_rural </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span></div><div class='input'>
-</div></span></pre>
+    <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'></span>
+<span class='r-in'><span class='va'>urban_owner</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 52 x 28</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    state  total_housing_u… total_housing_u… pct_vacant occupied pct_owner_occup…</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>  <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>                 <span style='color: #949494; font-style: italic;'>&lt;dbl&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>               <span style='color: #949494; font-style: italic;'>&lt;dbl&gt;</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span> Alaba… 1,963,711        2,171,853              13.3 1,883,7…             69.7</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span> Alaska 260,978          306,967                15.9 258,058              63.1</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span> Arizo… 2,189,189        2,844,526              16.3 2,380,9…             66  </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span> Arkan… 1,173,043        1,316,299              12.9 1,147,0…             67  </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span> Calif… 12,214,549       13,680,081              8.1 12,577,…             55.9</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span> Color… 1,808,037        2,212,898              10.8 1,972,8…             65.5</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span> Conne… 1,385,975        1,487,891               7.9 1,371,0…             67.5</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span> Delaw… 343,072          405,885                15.7 342,297              72.1</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span> Distr… 274,845          296,719                10.1 266,707              42  </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span> Flori… 7,302,947        8,989,580              17.5 7,420,8…             67.4</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 42 more rows, and 22 more variables: pop_st &lt;int&gt;, area_st &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   pop_urban &lt;int&gt;, poppct_urban &lt;dbl&gt;, area_urban &lt;dbl&gt;, areapct_urban &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   popden_urban &lt;dbl&gt;, pop_ua &lt;int&gt;, poppct_urban_1 &lt;dbl&gt;, area_ua &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   areapct_ua &lt;dbl&gt;, popden_ua &lt;dbl&gt;, pop_uc &lt;int&gt;, poppct_uc &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   area_uc &lt;dbl&gt;, areapct_uc &lt;dbl&gt;, popden_uc &lt;dbl&gt;, pop_rural &lt;int&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   poppct_rural &lt;dbl&gt;, area_rural &lt;dbl&gt;, areapct_rural &lt;dbl&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   popden_rural &lt;dbl&gt;</span></span>
+<span class='r-in'></span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -199,7 +200,7 @@
 </div>
 
 <div class="pkgdown">
-  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9000.</p></p>
+  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p></p>
 </div>
 
       </footer>

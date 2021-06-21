@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://openintrostat.github.io/usdata/404.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/authors.html</loc>
+  </url>
+  <url>
     <loc>https://openintrostat.github.io/usdata/index.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/news/index.html</loc>
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/abbr2state.html</loc>
@@ -20,6 +35,9 @@
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/houserace10.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/index.html</loc>
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/prrace08.html</loc>
