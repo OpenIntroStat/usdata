@@ -15,7 +15,7 @@ A data frame with 434 observations on the following 5 variables.
 }
 }
 \source{
-\href{https://maplight.org/}{MapLight}.
+\href{https://www.maplight.org/}{MapLight}.
 Available at \url{http://s3.documentcloud.org/documents/741074/amash-amendment-vote-maplight.pdf}.
 }
 \usage{

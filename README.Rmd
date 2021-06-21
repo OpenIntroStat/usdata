@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# usdata <a href="https://openintrostat.github.io/usdata"><img src="man/figures/usdata-hex.png" align="right" height="170" /></a>
+# usdata <a href="https://openintrostat.github.io/usdata/"><img src="man/figures/usdata-hex.png" align="right" height="170" /></a>
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/usdata)](https://CRAN.R-project.org/package=usdata)

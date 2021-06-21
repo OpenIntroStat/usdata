@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# usdata <a href="https://openintrostat.github.io/usdata"><img src="man/figures/usdata-hex.png" align="right" height="170" /></a>
+# usdata <a href="https://openintrostat.github.io/usdata/"><img src="man/figures/usdata-hex.png" align="right" height="170" /></a>
 
 <!-- badges: start -->
 
@@ -63,14 +63,14 @@ request.
 When filing an issue to get help or report a bug, please make a minimal
 **repr**oducible **ex**ample using the
 [reprex](https://reprex.tidyverse.org/) package. If you haven’t heard of
-or used reprex before, you’re in for a treat\! See
+or used reprex before, you’re in for a treat! See
 [here](https://www.tidyverse.org/help/) for additional reprex pointers.
 
 Before opening a new issue, be sure to [search issues and pull
 requests](https://github.com/openintrostat/usdata/issues) to make sure
 the bug hasn’t been reported and/or already fixed in the development
-version. By default, the search will be pre-populated with `is:issue
-is:open`. You can [edit the
+version. By default, the search will be pre-populated with
+`is:issue is:open`. You can [edit the
 qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/)
 (e.g. `is:pr`, `is:closed`) as needed. For example, you’d simply remove
 `is:open` to search *all* issues in the repository, open or closed.
