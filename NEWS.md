@@ -1,4 +1,4 @@
-# usdata (development version)
+# usdata 0.2.0
 
 * Extended county_complete for new ACS 2019 data.
 * Added a county_2019 data set for many ACS 2019 variables.
