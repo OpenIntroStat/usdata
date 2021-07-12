@@ -13,7 +13,8 @@ prez_pwr <- raw_data %>%
                names_to = "has_pwr",
                values_to = "percentage") %>%
   uncount(percentage) %>%
-  janitor::clean_names()
+  janitor::clean_names() %>%
+  rename(president_party = i_president)
 
 # save --------------------------------------------------------------------------
 
