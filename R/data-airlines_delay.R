@@ -1,0 +1,43 @@
+#' Airline Delays for December 2019 and 2020.
+#'
+#' Summary Data counts for airline per carrier per US City.
+#'
+#' @format A data frame with 3351 rows and 21 variables.
+#' \describe{
+#'   \item{year}{Year data collected}
+#'   \item{month}{Numeric representation of the month}
+#'   \item{carrier}{Carrier.}
+#'   \item{carrier_name}{Carrier Name.}
+#'   \item{airport}{Airport code.}
+#'   \item{airport_name}{Name of airport.}
+#'   \item{arr_flights}{Number of flights arriving at airport}
+#'   \item{arr_del15}{Number of flights more than 15 minutes late}
+#'   \item{carrier_ct}{Number of flights delayed due to air carrier. (e.g. no crew)}
+#'   \item{weather_ct}{Number of flights due to weather.}
+#'   \item{nas_ct}{Number of flights delayed due to National Aviation System (e.g. heavy air traffic).}
+#'   \item{security_ct}{Number of flights canceled due to a security breach.}
+#'   \item{late_aircraft_ct}{Number of flights delayed as a result of another flight on the same aircraft delayed}
+#'   \item{arr_cancelled}{Number of cancelled flights}
+#'   \item{arr_diverted}{Number of flights that were diverted}
+#'   \item{arr_delay}{Total time (minutes) of delayed flight.}
+#'   \item{carrier_delay}{Total time (minutes) of delay due to air carrier}
+#'   \item{weather_delay}{Total time (minutes) of delay due to inclement weather.}
+#'   \item{nas_delay}{Total time (minutes) of delay due to National Aviation System.}
+#'   \item{security_delay}{Total time (minutes) of delay as a result of a security issue .}
+#'   \item{late_aircraft_delay}{Total time (minutes) of delay flights as a result of a previous flight on the same airplane being late.}
+#' }
+#'
+#' @examples
+#' library(ggplot2)
+#' year_of_flights = as.factor(airline_delay$year)
+#' ggplot(airline_delay,
+#' aes(arr_flights, arr_del15, color = as.factor(year)))+
+#'    geom_point(alpha = 0.3) +
+#'  labs( x= "Total Number of inbound flights",
+#'  y = "Number of flights delayed by more than 15 mins",
+#'  title = "Inbound vs delayed flights by year",
+#'  color = "Year")
+#'
+#' @source [Bureau of Transportation Statistics](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp?20=E)
+#'
+"airline_delay"
