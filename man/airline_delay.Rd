@@ -42,13 +42,14 @@ Summary Data counts for airline per carrier per US City.
 \examples{
 library(ggplot2)
 year_of_flights = as.factor(airline_delay$year)
-ggplot(airline_delay,
-aes(arr_flights, arr_del15, color = as.factor(year)))+
-   geom_point(alpha = 0.3) +
- labs( x= "Total Number of inbound flights",
- y = "Number of flights delayed by more than 15 mins",
- title = "Inbound vs delayed flights by year",
- color = "Year")
+ggplot(airline_delay,aes(arr_flights, arr_del15, color = as.factor(year)))+
+geom_point(alpha = 0.3) +
+  labs(
+    x= "Total Number of inbound flights",
+    y = "Number of flights delayed by more than 15 mins",
+    title = "Inbound vs delayed flights by year",
+    color = "Year"
+)
 
 }
 \keyword{datasets}

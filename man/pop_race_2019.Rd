@@ -34,9 +34,9 @@ pop_race_2019 \%>\%
   select(state_name,race,hispanic,population,percent)
 
 pop_race_2019 \%>\%
-  select(state_name,state_total_population) \%>\%  
+  select(state_name,state_total_population) \%>\%
 distinct() \%>\%
-  arrange(desc(state_total_population))  
+  arrange(desc(state_total_population))
 
 
 }

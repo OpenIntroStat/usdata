@@ -59,18 +59,18 @@ Real estate sales for Pierce County, WA in 2020.
 library(dplyr)
 library(lubridate)
 
-# List house sales frequency and average price grouped by month 
+# List house sales frequency and average price grouped by month
 pierce_county_house_sales \%>\%
- mutate(month_sale = month(sale_date)) \%>\%
- group_by(month_sale) \%>\%
- summarize(freq=n(),mean_price=mean(sale_price))\%>\%   
- arrange(desc(freq))
-   
+  mutate(month_sale = month(sale_date)) \%>\%
+  group_by(month_sale) \%>\%
+  summarize(freq=n(),mean_price=mean(sale_price))\%>\%
+  arrange(desc(freq))
+
 # List house sales frequency and average price group by waterfront type
 pierce_county_house_sales \%>\%
- group_by(waterfront_type) \%>\%
- summarize(freq=n(),mean_price=mean(sale_price))\%>\%   
- arrange(desc(mean_price)) 
-   
+  group_by(waterfront_type) \%>\%
+  summarize(freq=n(),mean_price=mean(sale_price))\%>\%
+  arrange(desc(mean_price))
+
 }
 \keyword{datasets}
