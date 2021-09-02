@@ -18,7 +18,7 @@ navbar:
 reference:
 - title: Datasets
   contents:
-  - airlines_delay
+  - airline_delay
   - county_2019
   - county_complete
   - county

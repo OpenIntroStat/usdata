@@ -31,7 +31,6 @@
 #'
 #' @examples
 #' library(ggplot2)
-#' year_of_flights <- as.factor(airline_delay$year)
 #' ggplot(airline_delay, aes(arr_flights, arr_del15, color = as.factor(year))) +
 #'   geom_point(alpha = 0.3) +
 #'   labs(
