@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>United States Counties — county • usdata</title>
+<title>US Crime Rates — us_crime_rates • usdata</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,9 @@
 
 
 
-<meta property="og:title" content="United States Counties — county" />
-<meta property="og:description" content="Data for 3142 counties in the United States. See the
-county_complete data set for additional variables." />
+<meta property="og:title" content="US Crime Rates — us_crime_rates" />
+<meta property="og:description" content="National data on the number of crimes committed in the US between
+1960 and 2019." />
 
 
 
@@ -111,61 +111,63 @@ county_complete data set for additional variables." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>United States Counties</h1>
-    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-county.R'><code>R/data-county.R</code></a></small>
-    <div class="hidden name"><code>county.Rd</code></div>
+    <h1>US Crime Rates</h1>
+    <small class="dont-index">Source: <a href='https://github.com/OpenIntroStat/usdata/blob/master/R/data-us_crime_rates.R'><code>R/data-us_crime_rates.R</code></a></small>
+    <div class="hidden name"><code>us_crime_rates.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Data for 3142 counties in the United States. See the
-<code><a href='county_complete.html'>county_complete</a></code> data set for additional variables.</p>
+    <p>National data on the number of crimes committed in the US between
+1960 and 2019.</p>
     </div>
 
-    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='va'>county</span></code></pre></div>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='va'>us_crime_rates</span></code></pre></div>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 3142 observations on the following 14 variables.</p><dl>
-<dt>name</dt><dd><p>County names.</p></dd>
-<dt>state</dt><dd><p>State names.</p></dd>
-<dt>pop2000</dt><dd><p>Population in 2000.</p></dd>
-<dt>pop2010</dt><dd><p>Population in 2010.</p></dd>
-<dt>pop2017</dt><dd><p>Population in 2017.</p></dd>
-<dt>pop_change</dt><dd><p>Population change from 2010 to 2017.</p></dd>
-<dt>poverty</dt><dd><p>Percent of population in poverty in 2017.</p></dd>
-<dt>homeownership</dt><dd><p>Home ownership rate, 2006-2010.</p></dd>
-<dt>multi_unit</dt><dd><p>Percent of housing units in multi-unit structures,
-2006-2010.</p></dd>
-<dt>unemployment_rate</dt><dd><p>Unemployment rate in 2017.</p></dd>
-<dt>metro</dt><dd><p>Whether the county contains a metropolitan area.</p></dd>
-<dt>median_edu</dt><dd><p>Median education level (2013-2017).</p></dd>
-<dt>per_capita_income</dt><dd><p>Per capita (per person) income
-(2013-2017).</p></dd>
-<dt>median_hh_income</dt><dd><p>Median household income.</p></dd>
-<dt>smoking_ban</dt><dd><p>Describes whether the type of county-level
-smoking ban in place in 2010, taking one of the values <code>"none"</code>,
-<code>"partial"</code>, or <code>"comprehensive"</code>.</p></dd>
+    <p>A data frame with 60 rows and 12 variables.</p><dl>
+<dt>year</dt><dd><p>Year data was collected.</p></dd>
+<dt>population</dt><dd><p>Population of the United States the year data was collected.</p></dd>
+<dt>total</dt><dd><p>Total number of violent and property crimes committed.</p></dd>
+<dt>violent</dt><dd><p>Total number of violent crimes committed.</p></dd>
+<dt>property</dt><dd><p>Total number of property crimes committed.</p></dd>
+<dt>murder</dt><dd><p>Number of murders committed. Counted in violent total.</p></dd>
+<dt>forcible_rape</dt><dd><p>Number of forcible rapes committed. Counted in violent total.</p></dd>
+<dt>robbery</dt><dd><p>Number of robberies committed. Counted in violent total.</p></dd>
+<dt>aggravated_assault</dt><dd><p>Number of aggravated assaults committed. Counted in violent total.</p></dd>
+<dt>burglary</dt><dd><p>Number of burglaries committed. Counted in property total.</p></dd>
+<dt>larceny_theft</dt><dd><p>Number of larcency thefts committed. Counted in property total.</p></dd>
+<dt>vehicle_theft</dt><dd><p>Number of vehicle thefts committed. Counted in property total.</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>These data were collected from Census Quick Facts (no longer
-available as of 2020) and its accompanying pages. Smoking ban data were from
-a variety of sources.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><code><a href='county_complete.html'>county_complete</a></code></p></div>
+    <p><a href='http://www.disastercenter.com/crime/uscrime.htm'>Disaster Center</a></p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'></span>
 <span class='r-in'><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://ggplot2.tidyverse.org'>ggplot2</a></span><span class='op'>)</span></span>
 <span class='r-in'></span>
-<span class='r-in'><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>county</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>median_edu</span>, y <span class='op'>=</span> <span class='va'>median_hh_income</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span></span>
-<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_boxplot.html'>geom_boxplot</a></span><span class='op'>(</span><span class='op'>)</span></span>
-<span class='r-wrn co'><span class='r-pr'>#&gt;</span> <span class='warning'>Warning: </span>Removed 2 rows containing non-finite values (stat_boxplot).</span>
-<span class='r-plt'><img src='county-1.png' alt='' width='700' height='433' /></span>
+<span class='r-in'><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>us_crime_rates</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>population</span>, y <span class='op'>=</span> <span class='va'>total</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span></span>
+<span class='r-in'>    title <span class='op'>=</span> <span class='st'>"Crimes V Population"</span>,</span>
+<span class='r-in'>    x <span class='op'>=</span> <span class='st'>"Population"</span>,</span>
+<span class='r-in'>    y <span class='op'>=</span> <span class='st'>"Total Number of Crimes"</span></span>
+<span class='r-in'>  <span class='op'>)</span></span>
+<span class='r-plt'><img src='us_crime_rates-1.png' alt='' width='700' height='433' /></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>us_crime_rates</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>murder</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_boxplot.html'>geom_boxplot</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span></span>
+<span class='r-in'>    title <span class='op'>=</span> <span class='st'>"US Murders"</span>,</span>
+<span class='r-in'>    subtitle <span class='op'>=</span> <span class='st'>"1960 - 2019"</span>,</span>
+<span class='r-in'>    x <span class='op'>=</span> <span class='st'>"Number of Murders"</span></span>
+<span class='r-in'>  <span class='op'>)</span> <span class='op'>+</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/theme.html'>theme</a></span><span class='op'>(</span>axis.text.y <span class='op'>=</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/element.html'>element_blank</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-plt'><img src='us_crime_rates-2.png' alt='' width='700' height='433' /></span>
 </code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

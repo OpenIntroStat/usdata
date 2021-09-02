@@ -22,6 +22,9 @@
     <loc>https://openintrostat.github.io/usdata/reference/abbr2state.html</loc>
   </url>
   <url>
+    <loc>https://openintrostat.github.io/usdata/reference/airline_delay.html</loc>
+  </url>
+  <url>
     <loc>https://openintrostat.github.io/usdata/reference/county.html</loc>
   </url>
   <url>
@@ -31,6 +34,9 @@
     <loc>https://openintrostat.github.io/usdata/reference/county_complete.html</loc>
   </url>
   <url>
+    <loc>https://openintrostat.github.io/usdata/reference/fatal_police_shootings.html</loc>
+  </url>
+  <url>
     <loc>https://openintrostat.github.io/usdata/reference/govrace10.html</loc>
   </url>
   <url>
@@ -38,6 +44,18 @@
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/pierce_county_house_sales.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/pop_age_2019.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/pop_race_2019.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/prez_pwr.html</loc>
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/prrace08.html</loc>
@@ -56,6 +74,9 @@
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/urban_rural_pop.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/us_crime_rates.html</loc>
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/usdata-package.html</loc>
