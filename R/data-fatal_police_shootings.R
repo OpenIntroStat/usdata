@@ -43,12 +43,10 @@
 #' fatal_police_shootings %>%
 #'   group_by(race) %>%
 #'   summarize(n = n()) %>%
-#'   mutate(freq = n / sum(n)*100)
-
+#'   mutate(freq = n / sum(n) * 100)
 #' # List different weapons that victims were armed with
 #' fatal_police_shootings %>%
 #'   distinct(armed)
-#'
 #' @source [Washington Post](https://github.com/washingtonpost/data-police-shootings)
 #' @keywords datasets
 #'

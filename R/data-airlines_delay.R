@@ -31,16 +31,15 @@
 #'
 #' @examples
 #' library(ggplot2)
-#' year_of_flights = as.factor(airline_delay$year)
-#' ggplot(airline_delay,aes(arr_flights, arr_del15, color = as.factor(year)))+
-#' geom_point(alpha = 0.3) +
+#' year_of_flights <- as.factor(airline_delay$year)
+#' ggplot(airline_delay, aes(arr_flights, arr_del15, color = as.factor(year))) +
+#'   geom_point(alpha = 0.3) +
 #'   labs(
-#'     x= "Total Number of inbound flights",
+#'     x = "Total Number of inbound flights",
 #'     y = "Number of flights delayed by more than 15 mins",
 #'     title = "Inbound vs delayed flights by year",
 #'     color = "Year"
-#' )
-#'
+#'   )
 #' @source [Bureau of Transportation Statistics](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp?20=E)
 #' @keywords datasets
 #'

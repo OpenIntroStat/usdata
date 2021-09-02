@@ -28,15 +28,14 @@ power/control over gas prices.
 }
 \examples{
 library(ggplot2)
-ggplot(prez_pwr, aes(has_pwr, fill = party))+
-geom_bar()+
+ggplot(prez_pwr, aes(has_pwr, fill = party)) +
+  geom_bar() +
   labs(
     title = "Is the price of gasoline something the president can do alot about?",
     x = "",
     y = "Number of respondents",
     fill = "Respondent Party"
-)+
+  ) +
   facet_wrap(~president)
-
 }
 \keyword{datasets}

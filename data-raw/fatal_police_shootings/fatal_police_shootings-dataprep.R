@@ -6,9 +6,9 @@ raw_data <- read.csv(here::here("data-raw/fatal_police_shootings/fatal_police_sh
 # cleaning ----------------------------------------------------------------------
 
 # drop columns to reduce file size
-raw_data <- subset(raw_data,select = -c(latitude,longitude,is_geocoding_exact,name,id))
+raw_data <- subset(raw_data, select = -c(latitude, longitude, is_geocoding_exact, name, id))
 
-fatal_police_shootings<- raw_data
+fatal_police_shootings <- raw_data
 
 # save --------------------------------------------------------------------------
 

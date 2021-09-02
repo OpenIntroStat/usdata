@@ -37,5 +37,4 @@
 #' @examples
 #'
 #' table(govrace10$party1, govrace10$party2)
-#'
 "govrace10"

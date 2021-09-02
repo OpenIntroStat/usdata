@@ -80,7 +80,6 @@ nrow(h)
 
 # There are a couple of FIPS codes that required updating.
 if (add_to_county_complete) {
-
   cc <- usdata::county_complete
   if (any(cc$fips == 46113)) {
     cc$fips[cc$fips == 46113] <- 46102
@@ -102,13 +101,15 @@ if (add_to_county_complete) {
   if (all(found)) {
     message("All original county_complete columns were preserved.")
   } else {
-    stop("Some county_complete columns were dropped:\n- ",
-      paste(names(usdata::county_complete)[!found], collase = "\n- "))
+    stop(
+      "Some county_complete columns were dropped:\n- ",
+      paste(names(usdata::county_complete)[!found], collase = "\n- ")
+    )
   }
   save(county_complete, file = "county_complete.rda")
   message("`county_complete.rda` file created.")
 
-  fileConn<-file("county_complete.txt")
+  fileConn <- file("county_complete.txt")
   writeLines(
     paste0("#'   \\item{", h$var_name, "}{", h$description, "}"),
     fileConn
@@ -133,7 +134,7 @@ if (add_to_county_complete) {
   county_2019 <- a
   save(county_2019, file = "county_2019.rda")
   message("`county_2019.rda` file created.")
-  fileConn<-file("county_2019.txt")
+  fileConn <- file("county_2019.txt")
   h$var_name <- gsub("_2019", "", h$var_name, fixed = TRUE)
   cd1 <- paste0("#'   \\item{", h$var_name, "}{", h$description, "}")
   cd2 <- paste0("#'   \\item{", h$var_name, "_moe}{Margin of error for \\code{", h$var_name, "}.}")
@@ -149,4 +150,3 @@ if (add_to_county_complete) {
   # Get the number of rows and columns.
   dim(county_2019)
 }
-

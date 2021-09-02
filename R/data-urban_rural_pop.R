@@ -18,5 +18,4 @@
 #' @examples
 #'
 #' urban_rural_pop
-#'
 "urban_rural_pop"

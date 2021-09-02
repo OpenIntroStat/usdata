@@ -37,6 +37,5 @@ ggplot(voter_count, aes(x = percent_highest_office, y = percent_total_ballots_co
     x = "Highest Office",
     y = "Total Ballots"
   )
-
 }
 \keyword{datasets}

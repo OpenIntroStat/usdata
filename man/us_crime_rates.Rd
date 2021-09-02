@@ -35,17 +35,21 @@ National data on the number of crimes committed in the US between
 
 library(ggplot2)
 
-ggplot(us_crime_rates, aes(x = population, y = total))+
- geom_point()+
- labs(title = "Crimes V Population",
-  x = "Population",
-  y = "Total Number of Crimes")
+ggplot(us_crime_rates, aes(x = population, y = total)) +
+  geom_point() +
+  labs(
+    title = "Crimes V Population",
+    x = "Population",
+    y = "Total Number of Crimes"
+  )
 
-ggplot(us_crime_rates, aes(x = murder))+
- geom_boxplot()+
- labs(title = "US Murders",
-  subtitle = "1960 - 2019",
-  x = "Number of Murders")+
- theme(axis.text.y = element_blank())
+ggplot(us_crime_rates, aes(x = murder)) +
+  geom_boxplot() +
+  labs(
+    title = "US Murders",
+    subtitle = "1960 - 2019",
+    x = "Number of Murders"
+  ) +
+  theme(axis.text.y = element_blank())
 }
 \keyword{datasets}

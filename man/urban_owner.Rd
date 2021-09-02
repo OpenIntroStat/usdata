@@ -50,6 +50,5 @@ Census data for the 50 states plus DC and Puerto Rico.
 \examples{
 
 urban_owner
-
 }
 \keyword{datasets}

@@ -26,6 +26,5 @@ Census info for the 50 US states plus DC.
 \examples{
 
 urban_rural_pop
-
 }
 \keyword{datasets}

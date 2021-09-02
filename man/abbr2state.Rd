@@ -20,7 +20,6 @@ and the second does the opposite.
 \examples{
 
 abbr2state("MN")
-
 }
 \seealso{
 \code{\link{state2abbr}}, \code{\link{county}}, \code{\link{county_complete}}

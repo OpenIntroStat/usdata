@@ -14,4 +14,4 @@ voter_count[voter_count == 0] <- NA
 
 # save -------------------------------------------------------------------------
 
-usethis::use_data(voter_count, overwrite= TRUE)
+usethis::use_data(voter_count, overwrite = TRUE)

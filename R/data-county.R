@@ -39,5 +39,4 @@
 #'
 #' ggplot(county, aes(x = median_edu, y = median_hh_income)) +
 #'   geom_boxplot()
-#'
 "county"

@@ -28,14 +28,13 @@ library(dplyr)
 
 # List age population for each state with percent of total
 pop_age_2019 \%>\%
-  group_by(state_name,age) \%>\%
-  mutate(percent=population/state_total_population*100) \%>\%
-  select(state_name,age,population,percent)
+  group_by(state_name, age) \%>\%
+  mutate(percent = population / state_total_population * 100) \%>\%
+  select(state_name, age, population, percent)
 
 pop_age_2019 \%>\%
-  select(state_name,state_total_population) \%>\%
+  select(state_name, state_total_population) \%>\%
   distinct() \%>\%
   arrange(desc(state_total_population))
-
 }
 \keyword{datasets}
