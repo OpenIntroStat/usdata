@@ -1,4 +1,4 @@
-# Development Version
+# usdata (development version)
 
 * Added new datasets:
   * `prez_pwr` and `us_crims_rates` by [@npaterno](https://github.com/npaterno)
