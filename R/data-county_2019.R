@@ -111,9 +111,13 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(county_2019,
-#'        aes(x = hs_grad, y = median_individual_income,
-#'        size = sqrt(pop) / 1000)) +
+#' ggplot(
+#'   county_2019,
+#'   aes(
+#'     x = hs_grad, y = median_individual_income,
+#'     size = sqrt(pop) / 1000
+#'   )
+#' ) +
 #'   geom_point(alpha = 0.5) +
 #'   scale_color_discrete(na.translate = FALSE) +
 #'   guides(size = FALSE) +

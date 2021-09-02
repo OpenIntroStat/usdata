@@ -1,0 +1,409 @@
+state,state_name,race,hispanic,population,state_total_population
+AL,Alabama,American Indian or Alaska Native,Hispanic or Latino,7823,4903185
+AL,Alabama,American Indian or Alaska Native,Not Hispanic or Latino,30433,4903185
+AL,Alabama,Asian or Pacific Islander,Hispanic or Latino,4833,4903185
+AL,Alabama,Asian or Pacific Islander,Not Hispanic or Latino,80310,4903185
+AL,Alabama,Black or African American,Hispanic or Latino,17693,4903185
+AL,Alabama,Black or African American,Not Hispanic or Latino,1324613,4903185
+AL,Alabama,White,Hispanic or Latino,192929,4903185
+AL,Alabama,White,Not Hispanic or Latino,3244551,4903185
+AK,Alaska,American Indian or Alaska Native,Hispanic or Latino,7912,731545
+AK,Alaska,American Indian or Alaska Native,Not Hispanic or Latino,120349,731545
+AK,Alaska,Asian or Pacific Islander,Hispanic or Latino,2100,731545
+AK,Alaska,Asian or Pacific Islander,Not Hispanic or Latino,61753,731545
+AK,Alaska,Black or African American,Hispanic or Latino,3936,731545
+AK,Alaska,Black or African American,Not Hispanic or Latino,32019,731545
+AK,Alaska,White,Hispanic or Latino,39264,731545
+AK,Alaska,White,Not Hispanic or Latino,464212,731545
+AZ,Arizona,American Indian or Alaska Native,Hispanic or Latino,114299,7278717
+AZ,Arizona,American Indian or Alaska Native,Not Hispanic or Latino,299712,7278717
+AZ,Arizona,Asian or Pacific Islander,Hispanic or Latino,32500,7278717
+AZ,Arizona,Asian or Pacific Islander,Not Hispanic or Latino,284682,7278717
+AZ,Arizona,Black or African American,Hispanic or Latino,61752,7278717
+AZ,Arizona,Black or African American,Not Hispanic or Latino,366837,7278717
+AZ,Arizona,White,Hispanic or Latino,2102039,7278717
+AZ,Arizona,White,Not Hispanic or Latino,4016896,7278717
+AR,Arkansas,American Indian or Alaska Native,Hispanic or Latino,8470,3017804
+AR,Arkansas,American Indian or Alaska Native,Not Hispanic or Latino,25896,3017804
+AR,Arkansas,Asian or Pacific Islander,Hispanic or Latino,3412,3017804
+AR,Arkansas,Asian or Pacific Islander,Not Hispanic or Latino,63009,3017804
+AR,Arkansas,Black or African American,Hispanic or Latino,8984,3017804
+AR,Arkansas,Black or African American,Not Hispanic or Latino,482025,3017804
+AR,Arkansas,White,Hispanic or Latino,215765,3017804
+AR,Arkansas,White,Not Hispanic or Latino,2210243,3017804
+CA,California,American Indian or Alaska Native,Hispanic or Latino,570387,39512223
+CA,California,American Indian or Alaska Native,Not Hispanic or Latino,206297,39512223
+CA,California,Asian or Pacific Islander,Hispanic or Latino,374873,39512223
+CA,California,Asian or Pacific Islander,Not Hispanic or Latino,6303761,39512223
+CA,California,Black or African American,Hispanic or Latino,403959,39512223
+CA,California,Black or African American,Not Hispanic or Latino,2449181,39512223
+CA,California,White,Hispanic or Latino,14225661,39512223
+CA,California,White,Not Hispanic or Latino,14978104,39512223
+CO,Colorado,American Indian or Alaska Native,Hispanic or Latino,66437,5758736
+CO,Colorado,American Indian or Alaska Native,Not Hispanic or Latino,44344,5758736
+CO,Colorado,Asian or Pacific Islander,Hispanic or Latino,17399,5758736
+CO,Colorado,Asian or Pacific Islander,Not Hispanic or Latino,221840,5758736
+CO,Colorado,Black or African American,Hispanic or Latino,39137,5758736
+CO,Colorado,Black or African American,Not Hispanic or Latino,270041,5758736
+CO,Colorado,White,Hispanic or Latino,1133931,5758736
+CO,Colorado,White,Not Hispanic or Latino,3965607,5758736
+CT,Connecticut,American Indian or Alaska Native,Hispanic or Latino,14622,3565287
+CT,Connecticut,American Indian or Alaska Native,Not Hispanic or Latino,9639,3565287
+CT,Connecticut,Asian or Pacific Islander,Hispanic or Latino,8319,3565287
+CT,Connecticut,Asian or Pacific Islander,Not Hispanic or Latino,180864,3565287
+CT,Connecticut,Black or African American,Hispanic or Latino,73946,3565287
+CT,Connecticut,Black or African American,Not Hispanic or Latino,391493,3565287
+CT,Connecticut,White,Hispanic or Latino,504068,3565287
+CT,Connecticut,White,Not Hispanic or Latino,2382336,3565287
+DE,Delaware,American Indian or Alaska Native,Hispanic or Latino,3835,973764
+DE,Delaware,American Indian or Alaska Native,Not Hispanic or Latino,3475,973764
+DE,Delaware,Asian or Pacific Islander,Hispanic or Latino,1650,973764
+DE,Delaware,Asian or Pacific Islander,Not Hispanic or Latino,41632,973764
+DE,Delaware,Black or African American,Hispanic or Latino,12294,973764
+DE,Delaware,Black or African American,Not Hispanic or Latino,224574,973764
+DE,Delaware,White,Hispanic or Latino,75612,973764
+DE,Delaware,White,Not Hispanic or Latino,610692,973764
+DC,District of Columbia,American Indian or Alaska Native,Hispanic or Latino,3201,3565287
+DC,District of Columbia,American Indian or Alaska Native,Not Hispanic or Latino,1853,705749
+DC,District of Columbia,Asian or Pacific Islander,Hispanic or Latino,1900,705749
+DC,District of Columbia,Asian or Pacific Islander,Not Hispanic or Latino,33470,705749
+DC,District of Columbia,Black or African American,Hispanic or Latino,13071,705749
+DC,District of Columbia,Black or African American,Not Hispanic or Latino,321775,705749
+DC,District of Columbia,White,Hispanic or Latino,61305,705749
+DC,District of Columbia,White,Not Hispanic or Latino,269174,705749
+FL,Florida,American Indian or Alaska Native,Hispanic or Latino,60762,21477737
+FL,Florida,American Indian or Alaska Native,Not Hispanic or Latino,61041,21477737
+FL,Florida,Asian or Pacific Islander,Hispanic or Latino,46721,21477737
+FL,Florida,Asian or Pacific Islander,Not Hispanic or Latino,680265,21477737
+FL,Florida,Black or African American,Hispanic or Latino,329324,21477737
+FL,Florida,Black or African American,Not Hispanic or Latino,3445122,21477737
+FL,Florida,White,Hispanic or Latino,5227053,21477737
+FL,Florida,White,Not Hispanic or Latino,11627449,21477737
+GA,Georgia,American Indian or Alaska Native,Hispanic or Latino,34615,10617423
+GA,Georgia,American Indian or Alaska Native,Not Hispanic or Latino,27979,10617423
+GA,Georgia,Asian or Pacific Islander,Hispanic or Latino,18700,10617423
+GA,Georgia,Asian or Pacific Islander,Not Hispanic or Latino,484848,10617423
+GA,Georgia,Black or African American,Hispanic or Latino,109812,10617423
+GA,Georgia,Black or African American,Not Hispanic or Latino,3439966,10617423
+GA,Georgia,White,Hispanic or Latino,885597,10617423
+GA,Georgia,White,Not Hispanic or Latino,5615906,10617423
+HI,Hawaii,American Indian or Alaska Native,Hispanic or Latino,2967,1415872
+HI,Hawaii,American Indian or Alaska Native,Not Hispanic or Latino,3537,1415872
+HI,Hawaii,Asian or Pacific Islander,Hispanic or Latino,73173,1415872
+HI,Hawaii,Asian or Pacific Islander,Not Hispanic or Latino,864285,1415872
+HI,Hawaii,Black or African American,Hispanic or Latino,5682,1415872
+HI,Hawaii,Black or African American,Not Hispanic or Latino,37705,1415872
+HI,Hawaii,White,Hispanic or Latino,69042,1415872
+HI,Hawaii,White,Not Hispanic or Latino,359481,1415872
+ID,Idaho,American Indian or Alaska Native,Hispanic or Latino,13472,1787065
+ID,Idaho,American Indian or Alaska Native,Not Hispanic or Latino,22804,1787065
+ID,Idaho,Asian or Pacific Islander,Hispanic or Latino,3288,1787065
+ID,Idaho,Asian or Pacific Islander,Not Hispanic or Latino,33271,1787065
+ID,Idaho,Black or African American,Hispanic or Latino,3918,1787065
+ID,Idaho,Black or African American,Not Hispanic or Latino,19230,1787065
+ID,Idaho,White,Hispanic or Latino,208812,1787065
+ID,Idaho,White,Not Hispanic or Latino,1482270,1787065
+IL,Illinois,American Indian or Alaska Native,Hispanic or Latino,63213,12671821
+IL,Illinois,American Indian or Alaska Native,Not Hispanic or Latino,25735,12671821
+IL,Illinois,Asian or Pacific Islander,Hispanic or Latino,25425,12671821
+IL,Illinois,Asian or Pacific Islander,Not Hispanic or Latino,768490,12671821
+IL,Illinois,Black or African American,Hispanic or Latino,81223,12671821
+IL,Illinois,Black or African American,Not Hispanic or Latino,1853176,12671821
+IL,Illinois,White,Hispanic or Latino,2050021,12671821
+IL,Illinois,White,Not Hispanic or Latino,7804538,12671821
+IN,Indiana,American Indian or Alaska Native,Hispanic or Latino,14581,6732219
+IN,Indiana,American Indian or Alaska Native,Not Hispanic or Latino,19064,6732219
+IN,Indiana,Asian or Pacific Islander,Hispanic or Latino,6637,6732219
+IN,Indiana,Asian or Pacific Islander,Not Hispanic or Latino,185001,6732219
+IN,Indiana,Black or African American,Hispanic or Latino,28902,6732219
+IN,Indiana,Black or African American,Not Hispanic or Latino,697264,6732219
+IN,Indiana,White,Hispanic or Latino,439233,6732219
+IN,Indiana,White,Not Hispanic or Latino,5341537,6732219
+IA,Iowa,American Indian or Alaska Native,Hispanic or Latino,8344,1415872
+IA,Iowa,American Indian or Alaska Native,Not Hispanic or Latino,10935,1415872
+IA,Iowa,Asian or Pacific Islander,Hispanic or Latino,2552,1415872
+IA,Iowa,Asian or Pacific Islander,Not Hispanic or Latino,90907,1415872
+IA,Iowa,Black or African American,Hispanic or Latino,7433,1415872
+IA,Iowa,Black or African American,Not Hispanic or Latino,143304,1415872
+IA,Iowa,White,Hispanic or Latino,180221,1415872
+IA,Iowa,White,Not Hispanic or Latino,2711374,1415872
+KS,Kansas,American Indian or Alaska Native,Hispanic or Latino,14371,2913314
+KS,Kansas,American Indian or Alaska Native,Not Hispanic or Latino,28808,2913314
+KS,Kansas,Asian or Pacific Islander,Hispanic or Latino,3993,2913314
+KS,Kansas,Asian or Pacific Islander,Not Hispanic or Latino,99947,2913314
+KS,Kansas,Black or African American,Hispanic or Latino,14668,2913314
+KS,Kansas,Black or African American,Not Hispanic or Latino,193087,2913314
+KS,Kansas,White,Hispanic or Latino,323041,2913314
+KS,Kansas,White,Not Hispanic or Latino,2235399,2913314
+KY,Kentucky,American Indian or Alaska Native,Hispanic or Latino,4264,4467673
+KY,Kentucky,American Indian or Alaska Native,Not Hispanic or Latino,9983,4467673
+KY,Kentucky,Asian or Pacific Islander,Hispanic or Latino,3353,4467673
+KY,Kentucky,Asian or Pacific Islander,Not Hispanic or Latino,78122,4467673
+KY,Kentucky,Black or African American,Hispanic or Latino,11998,4467673
+KY,Kentucky,Black or African American,Not Hispanic or Latino,396677,4467673
+KY,Kentucky,White,Hispanic or Latino,155091,4467673
+KY,Kentucky,White,Not Hispanic or Latino,3808185,4467673
+LA,Louisiana,American Indian or Alaska Native,Hispanic or Latino,7398,4648794
+LA,Louisiana,American Indian or Alaska Native,Not Hispanic or Latino,32726,4648794
+LA,Louisiana,Asian or Pacific Islander,Hispanic or Latino,4336,4648794
+LA,Louisiana,Asian or Pacific Islander,Not Hispanic or Latino,89782,4648794
+LA,Louisiana,Black or African American,Hispanic or Latino,26719,4648794
+LA,Louisiana,Black or African American,Not Hispanic or Latino,1529795,4648794
+LA,Louisiana,White,Hispanic or Latino,208519,4648794
+LA,Louisiana,White,Not Hispanic or Latino,2749519,4648794
+ME,Maine,American Indian or Alaska Native,Hispanic or Latino,971,6892503
+ME,Maine,American Indian or Alaska Native,Not Hispanic or Latino,10684,6892503
+ME,Maine,Asian or Pacific Islander,Hispanic or Latino,463,6892503
+ME,Maine,Asian or Pacific Islander,Not Hispanic or Latino,18915,6892503
+ME,Maine,Black or African American,Hispanic or Latino,1523,6892503
+ME,Maine,Black or African American,Not Hispanic or Latino,26032,6892503
+ME,Maine,White,Hispanic or Latino,20743,6892503
+ME,Maine,White,Not Hispanic or Latino,1264881,6892503
+MD,Maryland,American Indian or Alaska Native,Hispanic or Latino,24865,6045680
+MD,Maryland,American Indian or Alaska Native,Not Hispanic or Latino,18083,6045680
+MD,Maryland,Asian or Pacific Islander,Hispanic or Latino,14499,6045680
+MD,Maryland,Asian or Pacific Islander,Not Hispanic or Latino,426593,6045680
+MD,Maryland,Black or African American,Hispanic or Latino,77915,6045680
+MD,Maryland,Black or African American,Not Hispanic or Latino,1866852,6045680
+MD,Maryland,White,Hispanic or Latino,526543,6045680
+MD,Maryland,White,Not Hispanic or Latino,3090330,6045680
+MA,Massachusetts,American Indian or Alaska Native,Hispanic or Latino,25537,4648794
+MA,Massachusetts,American Indian or Alaska Native,Not Hispanic or Latino,15669,4648794
+MA,Massachusetts,Asian or Pacific Islander,Hispanic or Latino,14731,4648794
+MA,Massachusetts,Asian or Pacific Islander,Not Hispanic or Latino,511692,4648794
+MA,Massachusetts,Black or African American,Hispanic or Latino,132682,4648794
+MA,Massachusetts,Black or African American,Not Hispanic or Latino,542939,4648794
+MA,Massachusetts,White,Hispanic or Latino,681957,4648794
+MA,Massachusetts,White,Not Hispanic or Latino,4967296,4648794
+MI,Michigan,American Indian or Alaska Native,Hispanic or Latino,21012,9986857
+MI,Michigan,American Indian or Alaska Native,Not Hispanic or Latino,71658,9986857
+MI,Michigan,Asian or Pacific Islander,Hispanic or Latino,7213,9986857
+MI,Michigan,Asian or Pacific Islander,Not Hispanic or Latino,359047,9986857
+MI,Michigan,Black or African American,Hispanic or Latino,40632,9986857
+MI,Michigan,Black or African American,Not Hispanic or Latino,1456845,9986857
+MI,Michigan,White,Hispanic or Latino,459348,9986857
+MI,Michigan,White,Not Hispanic or Latino,7571102,9986857
+MN,Minnesota,American Indian or Alaska Native,Hispanic or Latino,20074,5639632
+MN,Minnesota,American Indian or Alaska Native,Not Hispanic or Latino,68904,5639632
+MN,Minnesota,Asian or Pacific Islander,Hispanic or Latino,6241,5639632
+MN,Minnesota,Asian or Pacific Islander,Not Hispanic or Latino,306415,5639632
+MN,Minnesota,Black or African American,Hispanic or Latino,16841,5639632
+MN,Minnesota,Black or African American,Not Hispanic or Latino,422594,5639632
+MN,Minnesota,White,Hispanic or Latino,271974,5639632
+MN,Minnesota,White,Not Hispanic or Latino,4526589,5639632
+MS,Mississippi,American Indian or Alaska Native,Hispanic or Latino,3967,2976149
+MS,Mississippi,American Indian or Alaska Native,Not Hispanic or Latino,15690,2976149
+MS,Mississippi,Asian or Pacific Islander,Hispanic or Latino,1845,2976149
+MS,Mississippi,Asian or Pacific Islander,Not Hispanic or Latino,35844,2976149
+MS,Mississippi,Black or African American,Hispanic or Latino,12327,2976149
+MS,Mississippi,Black or African American,Not Hispanic or Latino,1129166,2976149
+MS,Mississippi,White,Hispanic or Latino,81971,2976149
+MS,Mississippi,White,Not Hispanic or Latino,1695339,2976149
+MO,Missouri,American Indian or Alaska Native,Hispanic or Latino,10928,5639632
+MO,Missouri,American Indian or Alaska Native,Not Hispanic or Latino,34550,5639632
+MO,Missouri,Asian or Pacific Islander,Hispanic or Latino,5216,5639632
+MO,Missouri,Asian or Pacific Islander,Not Hispanic or Latino,151285,5639632
+MO,Missouri,Black or African American,Hispanic or Latino,17131,5639632
+MO,Missouri,Black or African American,Not Hispanic or Latino,756938,5639632
+MO,Missouri,White,Hispanic or Latino,235433,5639632
+MO,Missouri,White,Not Hispanic or Latino,4925947,5639632
+MT,Montana,American Indian or Alaska Native,Hispanic or Latino,7402,1068778
+MT,Montana,American Indian or Alaska Native,Not Hispanic or Latino,70591,1068778
+MT,Montana,Asian or Pacific Islander,Hispanic or Latino,686,1068778
+MT,Montana,Asian or Pacific Islander,Not Hispanic or Latino,11538,1068778
+MT,Montana,Black or African American,Hispanic or Latino,1113,1068778
+MT,Montana,Black or African American,Not Hispanic or Latino,9519,1068778
+MT,Montana,White,Hispanic or Latino,34088,1068778
+MT,Montana,White,Not Hispanic or Latino,933841,1068778
+NE,Nebraska,American Indian or Alaska Native,Hispanic or Latino,14266,1934408
+NE,Nebraska,American Indian or Alaska Native,Not Hispanic or Latino,18023,1934408
+NE,Nebraska,Asian or Pacific Islander,Hispanic or Latino,3241,1934408
+NE,Nebraska,Asian or Pacific Islander,Not Hispanic or Latino,56169,1934408
+NE,Nebraska,Black or African American,Hispanic or Latino,7451,1934408
+NE,Nebraska,Black or African American,Not Hispanic or Latino,108303,1934408
+NE,Nebraska,White,Hispanic or Latino,194687,1934408
+NE,Nebraska,White,Not Hispanic or Latino,1532268,1934408
+NV,Nevada,American Indian or Alaska Native,Hispanic or Latino,30411,762062
+NV,Nevada,American Indian or Alaska Native,Not Hispanic or Latino,30462,762062
+NV,Nevada,Asian or Pacific Islander,Hispanic or Latino,24093,762062
+NV,Nevada,Asian or Pacific Islander,Not Hispanic or Latino,297537,762062
+NV,Nevada,Black or African American,Hispanic or Latino,36923,762062
+NV,Nevada,Black or African American,Not Hispanic or Latino,316625,762062
+NV,Nevada,White,Hispanic or Latino,809173,762062
+NV,Nevada,White,Not Hispanic or Latino,1534932,762062
+NH,New Hampshire,American Indian or Alaska Native,Hispanic or Latino,1390,1934408
+NH,New Hampshire,American Indian or Alaska Native,Not Hispanic or Latino,3859,1934408
+NH,New Hampshire,Asian or Pacific Islander,Hispanic or Latino,951,1934408
+NH,New Hampshire,Asian or Pacific Islander,Not Hispanic or Latino,42637,1934408
+NH,New Hampshire,Black or African American,Hispanic or Latino,5030,1934408
+NH,New Hampshire,Black or African American,Not Hispanic or Latino,24356,1934408
+NH,New Hampshire,White,Hispanic or Latino,47218,1934408
+NH,New Hampshire,White,Not Hispanic or Latino,1234270,1934408
+NJ,New Jersey,American Indian or Alaska Native,Hispanic or Latino,48231,8882190
+NJ,New Jersey,American Indian or Alaska Native,Not Hispanic or Latino,16855,8882190
+NJ,New Jersey,Asian or Pacific Islander,Hispanic or Latino,27936,8882190
+NJ,New Jersey,Asian or Pacific Islander,Not Hispanic or Latino,899348,8882190
+NJ,New Jersey,Black or African American,Hispanic or Latino,210896,8882190
+NJ,New Jersey,Black or African American,Not Hispanic or Latino,1194094,8882190
+NJ,New Jersey,White,Hispanic or Latino,1569781,8882190
+NJ,New Jersey,White,Not Hispanic or Latino,4915049,8882190
+NM,New Mexico,American Indian or Alaska Native,Hispanic or Latino,51907,762062
+NM,New Mexico,American Indian or Alaska Native,Not Hispanic or Latino,190556,762062
+NM,New Mexico,Asian or Pacific Islander,Hispanic or Latino,8269,762062
+NM,New Mexico,Asian or Pacific Islander,Not Hispanic or Latino,37363,762062
+NM,New Mexico,Black or African American,Hispanic or Latino,18794,762062
+NM,New Mexico,Black or African American,Not Hispanic or Latino,47422,762062
+NM,New Mexico,White,Hispanic or Latino,953972,762062
+NM,New Mexico,White,Not Hispanic or Latino,788546,762062
+NY,New York,American Indian or Alaska Native,Hispanic or Latino,153493,762062
+NY,New York,American Indian or Alaska Native,Not Hispanic or Latino,70362,762062
+NY,New York,Asian or Pacific Islander,Hispanic or Latino,67836,762062
+NY,New York,Asian or Pacific Islander,Not Hispanic or Latino,1782780,762062
+NY,New York,Black or African American,Hispanic or Latino,673783,762062
+NY,New York,Black or African American,Not Hispanic or Latino,2937637,762062
+NY,New York,White,Hispanic or Latino,2855946,762062
+NY,New York,White,Not Hispanic or Latino,10911724,762062
+NC,North Carolina,American Indian or Alaska Native,Hispanic or Latino,52527,1068778
+NC,North Carolina,American Indian or Alaska Native,Not Hispanic or Latino,124642,1068778
+NC,North Carolina,Asian or Pacific Islander,Hispanic or Latino,20166,1068778
+NC,North Carolina,Asian or Pacific Islander,Not Hispanic or Latino,348968,1068778
+NC,North Carolina,Black or African American,Hispanic or Latino,101327,1068778
+NC,North Carolina,Black or African American,Not Hispanic or Latino,2320112,1068778
+NC,North Carolina,White,Hispanic or Latino,851810,1068778
+NC,North Carolina,White,Not Hispanic or Latino,6668532,1068778
+ND,North Dakota,American Indian or Alaska Native,Hispanic or Latino,3831,1068778
+ND,North Dakota,American Indian or Alaska Native,Not Hispanic or Latino,41968,1068778
+ND,North Dakota,Asian or Pacific Islander,Hispanic or Latino,484,1068778
+ND,North Dakota,Asian or Pacific Islander,Not Hispanic or Latino,14116,1068778
+ND,North Dakota,Black or African American,Hispanic or Latino,1470,1068778
+ND,North Dakota,Black or African American,Not Hispanic or Latino,28163,1068778
+ND,North Dakota,White,Hispanic or Latino,25747,1068778
+ND,North Dakota,White,Not Hispanic or Latino,646283,1068778
+OH,Ohio,American Indian or Alaska Native,Hispanic or Latino,13618,11689100
+OH,Ohio,American Indian or Alaska Native,Not Hispanic or Latino,31001,11689100
+OH,Ohio,Asian or Pacific Islander,Hispanic or Latino,8191,11689100
+OH,Ohio,Asian or Pacific Islander,Not Hispanic or Latino,312922,11689100
+OH,Ohio,Black or African American,Hispanic or Latino,52521,11689100
+OH,Ohio,Black or African American,Not Hispanic or Latino,1588442,11689100
+OH,Ohio,White,Hispanic or Latino,396132,11689100
+OH,Ohio,White,Not Hispanic or Latino,9286273,11689100
+OK,Oklahoma,American Indian or Alaska Native,Hispanic or Latino,48694,3956971
+OK,Oklahoma,American Indian or Alaska Native,Not Hispanic or Latino,379024,3956971
+OK,Oklahoma,Asian or Pacific Islander,Hispanic or Latino,5469,3956971
+OK,Oklahoma,Asian or Pacific Islander,Not Hispanic or Latino,107141,3956971
+OK,Oklahoma,Black or African American,Hispanic or Latino,18647,3956971
+OK,Oklahoma,Black or African American,Not Hispanic or Latino,336886,3956971
+OK,Oklahoma,White,Hispanic or Latino,365300,3956971
+OK,Oklahoma,White,Not Hispanic or Latino,2695810,3956971
+OR,Oregon,American Indian or Alaska Native,Hispanic or Latino,36254,4217737
+OR,Oregon,American Indian or Alaska Native,Not Hispanic or Latino,58363,4217737
+OR,Oregon,Asian or Pacific Islander,Hispanic or Latino,11312,4217737
+OR,Oregon,Asian or Pacific Islander,Not Hispanic or Latino,239105,4217737
+OR,Oregon,Black or African American,Hispanic or Latino,15410,4217737
+OR,Oregon,Black or African American,Not Hispanic or Latino,107609,4217737
+OR,Oregon,White,Hispanic or Latino,503871,4217737
+OR,Oregon,White,Not Hispanic or Latino,3245813,4217737
+PA,Pennsylvania,American Indian or Alaska Native,Hispanic or Latino,36270,12801989
+PA,Pennsylvania,American Indian or Alaska Native,Not Hispanic or Latino,23511,12801989
+PA,Pennsylvania,Asian or Pacific Islander,Hispanic or Latino,19278,12801989
+PA,Pennsylvania,Asian or Pacific Islander,Not Hispanic or Latino,495573,12801989
+PA,Pennsylvania,Black or African American,Hispanic or Latino,164553,12801989
+PA,Pennsylvania,Black or African American,Not Hispanic or Latino,1479124,12801989
+PA,Pennsylvania,White,Hispanic or Latino,780049,12801989
+PA,Pennsylvania,White,Not Hispanic or Latino,9803631,12801989
+RI,Rhode Island,American Indian or Alaska Native,Hispanic or Latino,7495,1059361
+RI,Rhode Island,American Indian or Alaska Native,Not Hispanic or Latino,5367,1059361
+RI,Rhode Island,Asian or Pacific Islander,Hispanic or Latino,3450,1059361
+RI,Rhode Island,Asian or Pacific Islander,Not Hispanic or Latino,40694,1059361
+RI,Rhode Island,Black or African American,Hispanic or Latino,28265,1059361
+RI,Rhode Island,Black or African American,Not Hispanic or Latino,73704,1059361
+RI,Rhode Island,White,Hispanic or Latino,133434,1059361
+RI,Rhode Island,White,Not Hispanic or Latino,766952,1059361
+SC,South Carolina,American Indian or Alaska Native,Hispanic or Latino,10108,5148714
+SC,South Carolina,American Indian or Alaska Native,Not Hispanic or Latino,20945,5148714
+SC,South Carolina,Asian or Pacific Islander,Hispanic or Latino,5500,5148714
+SC,South Carolina,Asian or Pacific Islander,Not Hispanic or Latino,102022,5148714
+SC,South Carolina,Black or African American,Hispanic or Latino,31275,5148714
+SC,South Carolina,Black or African American,Not Hispanic or Latino,1396913,5148714
+SC,South Carolina,White,Hispanic or Latino,260235,5148714
+SC,South Carolina,White,Not Hispanic or Latino,3321716,5148714
+SD,South Dakota,American Indian or Alaska Native,Hispanic or Latino,7497,884659
+SD,South Dakota,American Indian or Alaska Native,Not Hispanic or Latino,77805,884659
+SD,South Dakota,Asian or Pacific Islander,Hispanic or Latino,665,884659
+SD,South Dakota,Asian or Pacific Islander,Not Hispanic or Latino,14872,884659
+SD,South Dakota,Black or African American,Hispanic or Latino,1250,884659
+SD,South Dakota,Black or African American,Not Hispanic or Latino,23618,884659
+SD,South Dakota,White,Hispanic or Latino,27939,884659
+SD,South Dakota,White,Not Hispanic or Latino,731013,884659
+TN,Tennessee,American Indian or Alaska Native,Hispanic or Latino,13866,6829174
+TN,Tennessee,American Indian or Alaska Native,Not Hispanic or Latino,21430,6829174
+TN,Tennessee,Asian or Pacific Islander,Hispanic or Latino,7917,6829174
+TN,Tennessee,Asian or Pacific Islander,Not Hispanic or Latino,144029,6829174
+TN,Tennessee,Black or African American,Hispanic or Latino,25984,6829174
+TN,Tennessee,Black or African American,Not Hispanic or Latino,1183163,6829174
+TN,Tennessee,White,Hispanic or Latino,343615,6829174
+TN,Tennessee,White,Not Hispanic or Latino,5089170,6829174
+TX,Texas,American Indian or Alaska Native,Hispanic or Latino,219926,28995881
+TX,Texas,American Indian or Alaska Native,Not Hispanic or Latino,107647,28995881
+TX,Texas,Asian or Pacific Islander,Hispanic or Latino,89448,28995881
+TX,Texas,Asian or Pacific Islander,Not Hispanic or Latino,1552880,28995881
+TX,Texas,Black or African American,Hispanic or Latino,263517,28995881
+TX,Texas,Black or African American,Not Hispanic or Latino,3609576,28995881
+TX,Texas,White,Hispanic or Latino,10952687,28995881
+TX,Texas,White,Not Hispanic or Latino,12200200,28995881
+UT,Utah,American Indian or Alaska Native,Hispanic or Latino,22632,3205958
+UT,Utah,American Indian or Alaska Native,Not Hispanic or Latino,33829,3205958
+UT,Utah,Asian or Pacific Islander,Hispanic or Latino,8401,3205958
+UT,Utah,Asian or Pacific Islander,Not Hispanic or Latino,126723,3205958
+UT,Utah,Black or African American,Hispanic or Latino,11900,3205958
+UT,Utah,Black or African American,Not Hispanic or Latino,48933,3205958
+UT,Utah,White,Hispanic or Latino,419118,3205958
+UT,Utah,White,Not Hispanic or Latino,2534422,3205958
+VT,Vermont,American Indian or Alaska Native,Hispanic or Latino,461,623989
+VT,Vermont,American Indian or Alaska Native,Not Hispanic or Latino,2733,623989
+VT,Vermont,Asian or Pacific Islander,Hispanic or Latino,219,623989
+VT,Vermont,Asian or Pacific Islander,Not Hispanic or Latino,12701,623989
+VT,Vermont,Black or African American,Hispanic or Latino,910,623989
+VT,Vermont,Black or African American,Not Hispanic or Latino,10539,623989
+VT,Vermont,White,Hispanic or Latino,11129,623989
+VT,Vermont,White,Not Hispanic or Latino,585297,623989
+VA,Virginia,American Indian or Alaska Native,Hispanic or Latino,26499,3205958
+VA,Virginia,American Indian or Alaska Native,Not Hispanic or Latino,25920,3205958
+VA,Virginia,Asian or Pacific Islander,Hispanic or Latino,19379,3205958
+VA,Virginia,Asian or Pacific Islander,Not Hispanic or Latino,628966,3205958
+VA,Virginia,Black or African American,Hispanic or Latino,74472,3205958
+VA,Virginia,Black or African American,Not Hispanic or Latino,1707048,3205958
+VA,Virginia,White,Hispanic or Latino,714072,3205958
+VA,Virginia,White,Not Hispanic or Latino,5339163,3205958
+WA,Washington,American Indian or Alaska Native,Hispanic or Latino,60838,7614893
+WA,Washington,American Indian or Alaska Native,Not Hispanic or Latino,115181,7614893
+WA,Washington,Asian or Pacific Islander,Hispanic or Latino,29645,7614893
+WA,Washington,Asian or Pacific Islander,Not Hispanic or Latino,829017,7614893
+WA,Washington,Black or African American,Hispanic or Latino,38404,7614893
+WA,Washington,Black or African American,Not Hispanic or Latino,376512,7614893
+WA,Washington,White,Hispanic or Latino,862834,7614893
+WA,Washington,White,Not Hispanic or Latino,5302462,7614893
+WV,West Virginia,American Indian or Alaska Native,Hispanic or Latino,790,5822434
+WV,West Virginia,American Indian or Alaska Native,Not Hispanic or Latino,3961,5822434
+WV,West Virginia,Asian or Pacific Islander,Hispanic or Latino,518,5822434
+WV,West Virginia,Asian or Pacific Islander,Not Hispanic or Latino,16340,5822434
+WV,West Virginia,Black or African American,Hispanic or Latino,2103,5822434
+WV,West Virginia,Black or African American,Not Hispanic or Latino,72580,5822434
+WV,West Virginia,White,Hispanic or Latino,27751,5822434
+WV,West Virginia,White,Not Hispanic or Latino,1668104,5822434
+WI,Wisconsin,American Indian or Alaska Native,Hispanic or Latino,18875,5822434
+WI,Wisconsin,American Indian or Alaska Native,Not Hispanic or Latino,58310,5822434
+WI,Wisconsin,Asian or Pacific Islander,Hispanic or Latino,5017,5822434
+WI,Wisconsin,Asian or Pacific Islander,Not Hispanic or Latino,183848,5822434
+WI,Wisconsin,Black or African American,Hispanic or Latino,22666,5822434
+WI,Wisconsin,Black or African American,Not Hispanic or Latino,406862,5822434
+WI,Wisconsin,White,Hispanic or Latino,366650,5822434
+WI,Wisconsin,White,Not Hispanic or Latino,4760206,5822434
+WY,Wyoming,American Indian or Alaska Native,Hispanic or Latino,4152,578759
+WY,Wyoming,American Indian or Alaska Native,Not Hispanic or Latino,13250,578759
+WY,Wyoming,Asian or Pacific Islander,Hispanic or Latino,715,578759
+WY,Wyoming,Asian or Pacific Islander,Not Hispanic or Latino,7247,578759
+WY,Wyoming,Black or African American,Hispanic or Latino,1424,578759
+WY,Wyoming,Black or African American,Not Hispanic or Latino,8813,578759
+WY,Wyoming,White,Hispanic or Latino,52318,578759
+WY,Wyoming,White,Not Hispanic or Latino,490840,578759

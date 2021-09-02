@@ -77,6 +77,4 @@
 #'   expand_limits(x = states_map$long, y = states_map$lat) +
 #'   scale_fill_viridis_c() +
 #'   labs(x = "", y = "", fill = "Nuclear energy\n(%)")
-#'
-#'
 "state_stats"

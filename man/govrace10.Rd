@@ -45,6 +45,5 @@ Election results for 2010 Governor races in the U.S.
 \examples{
 
 table(govrace10$party1, govrace10$party2)
-
 }
 \keyword{datasets}

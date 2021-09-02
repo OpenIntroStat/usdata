@@ -28,7 +28,8 @@ Suggests:
     dplyr,
     ggplot2,
     maps,
-    testthat
+    testthat,
+    lubridate
 Imports: 
     tibble
 Depends: 

@@ -11,7 +11,7 @@ county <- county %>%
   mutate(
     name = as.character(name),
     name = if_else(name == "Hoonah–Angoon Census Area", "Hoonah Angoon Census Area", name)
-    )
+  )
 
 # Add to package
 use_data(county, overwrite = TRUE)

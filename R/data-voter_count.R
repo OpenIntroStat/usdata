@@ -25,7 +25,6 @@
 #'     x = "Highest Office",
 #'     y = "Total Ballots"
 #'   )
-#'
 #' @source \href{http://www.electproject.org/home/voter-turnout/voter-turnout-data}{United States Election Project}
 #'
 "voter_count"

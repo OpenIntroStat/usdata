@@ -9,6 +9,7 @@
 status](https://www.r-pkg.org/badges/version/usdata)](https://CRAN.R-project.org/package=usdata)
 [![R build
 status](https://github.com/OpenIntroStat/usdata/workflows/R-CMD-check/badge.svg)](https://github.com/OpenIntroStat/usdata/actions)
+[![R-CMD-check](https://github.com/OpenIntroStat/usdata/workflows/R-CMD-check/badge.svg)](https://github.com/OpenIntroStat/usdata/actions)
 <!-- badges: end -->
 
 This package contains demographic data on the United States at the

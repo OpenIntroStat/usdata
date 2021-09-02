@@ -42,5 +42,4 @@
 #' @examples
 #'
 #' urban_owner
-#'
 "urban_owner"

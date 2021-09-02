@@ -26,6 +26,6 @@
 #'
 #' table(vote_nsa$party, vote_nsa$phone_spy_vote)
 #' boxplot(vote_nsa$money / 1000 ~ vote_nsa$phone_spy_vote,
-#'         ylab = "$1000s Received from Defense Industry")
-#'
+#'   ylab = "$1000s Received from Defense Industry"
+#' )
 "vote_nsa"

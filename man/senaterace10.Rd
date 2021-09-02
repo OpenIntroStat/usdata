@@ -49,6 +49,5 @@ library(ggplot2)
 ggplot(senaterace10, aes(x = perc1)) +
   geom_histogram(binwidth = 5) +
   labs(x = "Winning candidate vote percentage")
-
 }
 \keyword{datasets}

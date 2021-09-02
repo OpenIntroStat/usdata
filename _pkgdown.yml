@@ -18,16 +18,23 @@ navbar:
 reference:
 - title: Datasets
   contents:
+  - airlines_delay
+  - county_2019
   - county_complete
   - county
-  - county_2019
+  - fatal_police_shootings
   - govrace10
   - houserace10
+  - pierce_county_house_sales
+  - pop_age_2019
+  - pop_race_2019
+  - prez_pwr
   - prrace08
   - senaterace10
   - state_stats
   - urban_owner
   - urban_rural_pop
+  - us_crime_rates
   - vote_nsa
   - voter_count
 

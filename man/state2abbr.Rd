@@ -23,7 +23,6 @@ state2abbr("Minnesota")
 
 # Some spelling/capitalization errors okay
 state2abbr("mINnesta")
-
 }
 \seealso{
 \code{\link{abbr2state}}, \code{\link{county}}, \code{\link{county_complete}}

@@ -1,0 +1,53 @@
+#' Fatal Police Shootings data.
+#'
+#' A subset of the Washington Post database. Contains records of every fatal police shooting by an on-duty officer since January 1, 2015.
+#'
+#' @name fatal_police_shootings
+#' @docType data
+#' @format A data frame with 6421 rows and 12 variables.
+#' \describe{
+#'   \item{date}{date of fatal shooting.}
+#'   \item{manner_of_death}{shot or shot and Tasered.}
+#'   \item{armed}{Indicates if the victim was armed with some sort of implement
+#'        that a police officer believed could inflict harm.}
+#'   \item{age}{the age of the victim.}
+#'   \item{gender}{The gender of the victim. The Post identifies victims by
+#'        the gender they identify with if reports indicate that it
+#'        differs from their biological sex.}
+#'   \item{race}{W White non-Hispanic; B Black non-Hispanic; A Asian;
+#'       N Native American; H Hispanic; O Other None unknown.}
+#'   \item{city}{The municipality where the fatal shooting took place.
+#'       Note that in some cases this field may contain a county name
+#'       if a more specific municipality is unavailable or unknown.}
+#'  \item{state}{two-letter postal code abbreviation.}
+#'  \item{signs_of_mental_illness}{If news reports have indicated the victim
+#'       had a history of mental health issues, expressed suicidal intentions
+#'        or was experiencing mental distress at the time of the shooting.}
+#'  \item{threat_level}{The general criteria for the attack label was that
+#'       there was the most direct and immediate threat to life that would
+#'       include incidents where officers or others were shot at, threatened
+#'       with a gun, attacked with other weapons or physical force, etc. ;
+#'       the attack category is meant to flag the highest level of threat;
+#'       the other and undetermined categories represent all remaining cases;
+#'       other includes many incidents where officers or others faced significant
+#'       threats.}
+#'  \item{flee}{If news reports have indicated the victim was moving away from
+#'       officers by Foot, by Car, or Not fleeing.}
+#'  \item{body_camera}{If news reports have indicated an officer was wearing a
+#'       body camera and it may have recorded some portion of the incident.}
+#' }
+#' @examples
+#' library(dplyr)
+#'
+#' # List race frequency and percentage
+#' fatal_police_shootings %>%
+#'   group_by(race) %>%
+#'   summarize(n = n()) %>%
+#'   mutate(freq = n / sum(n) * 100)
+#' # List different weapons that victims were armed with
+#' fatal_police_shootings %>%
+#'   distinct(armed)
+#' @source [Washington Post](https://github.com/washingtonpost/data-police-shootings)
+#' @keywords datasets
+#'
+"fatal_police_shootings"

@@ -85,8 +85,6 @@ ggplot(states_map, aes(map_id = region)) +
   expand_limits(x = states_map$long, y = states_map$lat) +
   scale_fill_viridis_c() +
   labs(x = "", y = "", fill = "Nuclear energy\n(\%)")
-
-
 }
 \keyword{States}
 \keyword{United}
