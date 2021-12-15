@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# usdata <a href="https://openintrostat.github.io/usdata/"><img src="man/figures/usdata-hex.png" align="right" height="170" /></a>
+# usdata <a href="https://openintrostat.github.io/usdata/"><img src="man/figures/logo.png" align="right" alt="Hex logo for package"  height="120" /></a>
 
 <!-- badges: start -->
 
