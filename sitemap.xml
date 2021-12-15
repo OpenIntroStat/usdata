@@ -37,6 +37,9 @@
     <loc>https://openintrostat.github.io/usdata/reference/fatal_police_shootings.html</loc>
   </url>
   <url>
+    <loc>https://openintrostat.github.io/usdata/reference/gerrymander.html</loc>
+  </url>
+  <url>
     <loc>https://openintrostat.github.io/usdata/reference/govrace10.html</loc>
   </url>
   <url>
@@ -77,6 +80,9 @@
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/us_crime_rates.html</loc>
+  </url>
+  <url>
+    <loc>https://openintrostat.github.io/usdata/reference/us_time_survey.html</loc>
   </url>
   <url>
     <loc>https://openintrostat.github.io/usdata/reference/usdata-package.html</loc>
