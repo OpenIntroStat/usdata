@@ -35,6 +35,8 @@ navbar:
   left:
   - text: Reference
     href: reference/index.html
+  - text: News
+    href: news/index.html
   right:
   - text: OpenIntro
     href: https://www.openintro.org
