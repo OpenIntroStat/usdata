@@ -64,6 +64,7 @@ reference:
   - urban_owner
   - urban_rural_pop
   - us_crime_rates
+  - us_temp
   - us_time_survey
   - vote_nsa
   - voter_count

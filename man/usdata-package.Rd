@@ -6,6 +6,8 @@
 \alias{usdata-package}
 \title{usdata: Data on the States and Counties of the United States}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Demographic data on the United States at the county and state levels spanning multiple years.
 }
 \seealso{
