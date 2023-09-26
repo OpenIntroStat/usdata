@@ -1,8 +1,8 @@
-pandoc: 2.7.3
-pkgdown: 2.0.1.9000
-pkgdown_sha: 2cdb2e208661026722435f2fcda0d401f5c6d20f
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
 articles: {}
-last_built: 2021-12-15T04:34Z
+last_built: 2023-09-26T04:58Z
 urls:
   reference: https://openintrostat.github.io/usdata/reference
   article: https://openintrostat.github.io/usdata/articles
