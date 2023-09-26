@@ -4,6 +4,7 @@
   * `prez_pwr`, `us_crims_rates` and `gerrymander` by [@npaterno](https://github.com/npaterno)
   * `fatal_police_shootings`, `pop_age_2019`, `pop_race_2019` and `pierce_county_house_sales` by [@karenjh2](https://github.com/karenjh2)
   * `airline_delay` and `us_time_survey` by [@mmeece](https://github.com/mmeece)
+  * `us_temp` by [hardin47](https://github.com/hardin47)
 
 # usdata 0.2.0
 
