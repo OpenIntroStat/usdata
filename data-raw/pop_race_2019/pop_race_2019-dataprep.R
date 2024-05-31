@@ -1,7 +1,7 @@
 library(readr)
 
 # load data ---------------------------------------------------------------------
-raw_data <- read.csv(here::here("data-raw/pop_race_2019/pop_race_2019.csv"))
+raw_data <- read_csv(here::here("data-raw/pop_race_2019/pop_race_2019.csv"))
 
 # cleaning ----------------------------------------------------------------------
 
