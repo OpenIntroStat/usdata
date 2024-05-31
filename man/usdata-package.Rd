@@ -14,6 +14,7 @@ Demographic data on the United States at the county and state levels spanning mu
 Useful links:
 \itemize{
   \item \url{https://github.com/OpenIntroStat/usdata}
+  \item \url{https://openintrostat.github.io/usdata/}
   \item Report bugs at \url{https://github.com/OpenIntroStat/usdata/issues}
 }
 
