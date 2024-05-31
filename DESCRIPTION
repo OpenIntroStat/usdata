@@ -1,6 +1,6 @@
 Package: usdata
 Title: Data on the States and Counties of the United States
-Version: 0.2.0.9000
+Version: 0.2.1
 Authors@R: c(
     person(given = "Mine",
            family = "Çetinkaya-Rundel",
@@ -21,7 +21,7 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 URL: https://github.com/OpenIntroStat/usdata, https://openintrostat.github.io/usdata/
 BugReports: https://github.com/OpenIntroStat/usdata/issues
 Suggests: 
