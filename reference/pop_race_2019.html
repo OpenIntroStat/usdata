@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">usdata</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,7 +93,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 408 × 5</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># Groups:   state_name, race, hispanic [408]</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    state_name race                             hispanic       population percent</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> Alabama    American Indian or Alaska Native Hispanic or L…       <span style="text-decoration: underline;">7</span>823  0.160 </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> Alabama    American Indian or Alaska Native Not Hispanic …      <span style="text-decoration: underline;">30</span>433  0.621 </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Alabama    Asian or Pacific Islander        Hispanic or L…       <span style="text-decoration: underline;">4</span>833  0.098<span style="text-decoration: underline;">6</span></span>
@@ -110,59 +110,20 @@
 <span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html" class="external-link">select</a></span><span class="op">(</span><span class="va">state_name</span>, <span class="va">state_total_population</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span></span>
 <span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html" class="external-link">distinct</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span></span>
 <span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html" class="external-link">arrange</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/desc.html" class="external-link">desc</a></span><span class="op">(</span><span class="va">state_total_population</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>              state_name state_total_population</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1            California               39512223</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2                 Texas               28995881</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3               Florida               21477737</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4          Pennsylvania               12801989</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5              Illinois               12671821</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6                  Ohio               11689100</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7               Georgia               10617423</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8              Michigan                9986857</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9            New Jersey                8882190</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10           Washington                7614893</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11              Arizona                7278717</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12                Maine                6892503</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13            Tennessee                6829174</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14              Indiana                6732219</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15             Maryland                6045680</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16        West Virginia                5822434</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17            Wisconsin                5822434</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18             Colorado                5758736</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19            Minnesota                5639632</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20             Missouri                5639632</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21       South Carolina                5148714</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22              Alabama                4903185</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23            Louisiana                4648794</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24        Massachusetts                4648794</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25             Kentucky                4467673</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26               Oregon                4217737</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27             Oklahoma                3956971</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28          Connecticut                3565287</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29 District of Columbia                3565287</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30                 Utah                3205958</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31             Virginia                3205958</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32             Arkansas                3017804</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33          Mississippi                2976149</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34               Kansas                2913314</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35             Nebraska                1934408</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36        New Hampshire                1934408</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37                Idaho                1787065</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38               Hawaii                1415872</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39                 Iowa                1415872</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40              Montana                1068778</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41       North Carolina                1068778</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42         North Dakota                1068778</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43         Rhode Island                1059361</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44             Delaware                 973764</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45         South Dakota                 884659</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46               Nevada                 762062</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47           New Mexico                 762062</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48             New York                 762062</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49               Alaska                 731545</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50 District of Columbia                 705749</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51              Vermont                 623989</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52              Wyoming                 578759</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 52 × 2</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    state_name   state_total_population</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                         <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> California                 39<span style="text-decoration: underline;">512</span>223</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> Texas                      28<span style="text-decoration: underline;">995</span>881</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Florida                    21<span style="text-decoration: underline;">477</span>737</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> Pennsylvania               12<span style="text-decoration: underline;">801</span>989</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> Illinois                   12<span style="text-decoration: underline;">671</span>821</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> Ohio                       11<span style="text-decoration: underline;">689</span>100</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> Georgia                    10<span style="text-decoration: underline;">617</span>423</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> Michigan                    9<span style="text-decoration: underline;">986</span>857</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> New Jersey                  8<span style="text-decoration: underline;">882</span>190</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> Washington                  7<span style="text-decoration: underline;">614</span>893</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 42 more rows</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>

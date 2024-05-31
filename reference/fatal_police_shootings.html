@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">usdata</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,116 +128,30 @@ body camera and it may have recorded some portion of the incident.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 7 × 3</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   race      n   freq</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> <span style="color: #949494;">""</span>      666 10.4  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> <span style="color: #949494;">"</span>A<span style="color: #949494;">"</span>     105  1.64 </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> <span style="color: #949494;">"</span>B<span style="color: #949494;">"</span>    <span style="text-decoration: underline;">1</span>528 23.8  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> <span style="color: #949494;">"</span>H<span style="color: #949494;">"</span>    <span style="text-decoration: underline;">1</span>066 16.6  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> <span style="color: #949494;">"</span>N<span style="color: #949494;">"</span>      90  1.40 </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> <span style="color: #949494;">"</span>O<span style="color: #949494;">"</span>      47  0.732</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> <span style="color: #949494;">"</span>W<span style="color: #949494;">"</span>    <span style="text-decoration: underline;">2</span>919 45.5  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> A       105  1.64 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> B      <span style="text-decoration: underline;">1</span>528 23.8  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> H      <span style="text-decoration: underline;">1</span>066 16.6  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> N        90  1.40 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> O        47  0.732</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> W      <span style="text-decoration: underline;">2</span>919 45.5  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> <span style="color: #BB0000;">NA</span>      666 10.4  </span>
 <span class="r-in"><span><span class="co"># List different weapons that victims were armed with</span></span></span>
 <span class="r-in"><span><span class="va">fatal_police_shootings</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span></span>
 <span class="r-in"><span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html" class="external-link">distinct</a></span><span class="op">(</span><span class="va">armed</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                               armed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1                               gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2                           unarmed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3                        toy weapon</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4                          nail gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5                             knife</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6                                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7                            shovel</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8                           vehicle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9                            hammer</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10                          hatchet</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11                            sword</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12                          machete</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13                       box cutter</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14                     undetermined</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15                     metal object</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16                      screwdriver</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17                 lawn mower blade</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18                         flagpole</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19              guns and explosives</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20                   cordless drill</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21                         crossbow</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22                           BB gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23                       metal pole</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24                            Taser</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25                       metal pipe</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26                  metal hand tool</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27                     blunt object</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28                      metal stick</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29                     sharp object</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30                     meat cleaver</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31                          carjack</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32                            chain</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33               contractor's level</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34                  railroad spikes</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35                          stapler</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36                      beer bottle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37                   unknown weapon</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38                       binoculars</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39                     bean-bag gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40 baseball bat and fireplace poker</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41              straight edge razor</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42                    gun and knife</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43                               ax</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44                            brick</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45                     baseball bat</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46                       hand torch</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47                        chain saw</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48                      garden tool</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49                         scissors</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50                             pole</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51                         pick-axe</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52                       flashlight</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 53                            baton</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 54                            spear</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 55                            chair</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 56                        pitchfork</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 57                  hatchet and gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 58                             rock</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 59                    piece of wood</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 60                             pipe</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 61                      glass shard</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 62                       motorcycle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 63                     pepper spray</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 64                       metal rake</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 65                          crowbar</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 66                              oar</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 67                  machete and gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 68                        tire iron</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 69                  air conditioner</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 70                   pole and knife</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 71          baseball bat and bottle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 72                        fireworks</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 73                              pen</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 74                         chainsaw</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 75                    gun and sword</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 76                      gun and car</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 77                       pellet gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 78              claimed to be armed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 79                incendiary device</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 80                    samurai sword</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 81                    bow and arrow</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 82                  gun and vehicle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 83                  vehicle and gun</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 84                           wrench</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 85                    walking stick</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 86                         barstool</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 87                          grenade</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 88               BB gun and vehicle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 89                       wasp spray</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 90                       air pistol</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 91                   Airsoft pistol</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 92           baseball bat and knife</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 93              vehicle and machete</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 94                         ice pick</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 95              car, knife and mace</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 96                           bottle</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 97                  gun and machete</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 98                       microphone</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 99                knife and vehicle</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 99 × 1</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    armed     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> gun       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> unarmed   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> toy weapon</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> nail gun  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> knife     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> <span style="color: #BB0000;">NA</span>        </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> shovel    </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> vehicle   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> hammer    </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> hatchet   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 89 more rows</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
