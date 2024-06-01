@@ -1,15 +1,10 @@
-## Resubmission
-
-This is a resubmission that fixes two URL redirects identified in the first submission.
-
 ## Test environments
 
-* local OS X install, R 4.1.0
-* GitHub Actions (ubuntu-16.04): release
+* local OS X install, R 4.4.0
+* GitHub Actions (ubuntu-22.04.4): release, devel, oldrel-1
 * GitHub Actions (windows): release
-* Github Actions (macOS): release, devel
-* win-builder: release, devel, oldrelease
-* r-hub: windows-x86_64-oldrel, ubuntu-gcc-release, fedora-clang-devel, r-release-linux-x86_64
+* Github Actions (macOS): release
+* r-hub: windows, ubuntu-gcc12
 
 ## R CMD check results
 
