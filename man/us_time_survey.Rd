@@ -30,14 +30,14 @@ Average Time Spent on Activities by Americans
 \examples{
 
 library(ggplot2)
-us_time_survey$year <-as.factor(us_time_survey$year)
-ggplot(us_time_survey, aes(year, sleeping))+
- geom_point(alpha = 0.3) +
- labs( x= "Year", 
-       y = "Average hours spent Sleeping", 
-       title = "US Average hours spent sleeping, 2009 - 2019")
-
-
+us_time_survey$year <- as.factor(us_time_survey$year)
+ggplot(us_time_survey, aes(year, sleeping)) +
+  geom_point(alpha = 0.3) +
+  labs(
+    x = "Year",
+    y = "Average hours spent Sleeping",
+    title = "US Average hours spent sleeping, 2009 - 2019"
+  )
 
 }
 \keyword{datasets}

@@ -19,7 +19,7 @@
 #'   \item{vehicle_theft}{Number of vehicle thefts committed. Counted in property total.}
 #' }
 #'
-#' @source \href{http://www.disastercenter.com/crime/uscrime.htm}{Disaster Center}
+#' @source [Disaster Center](https://www.disastercenter.com/crime/uscrime.htm)
 #'
 #' @examples
 #'

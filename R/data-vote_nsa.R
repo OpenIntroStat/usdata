@@ -19,7 +19,7 @@
 #' @references Kravets, D., 2020. Lawmakers Who Upheld NSA Phone Spying Received
 #' Double The Defense Industry Cash. WIRED.
 #' Available at \url{https://www.wired.com/2013/07/money-nsa-vote/}.
-#' @source \href{https://www.maplight.org/}{MapLight}.
+#' @source [MapLight](https://www.maplight.org/).
 #' Available at \url{http://s3.documentcloud.org/documents/741074/amash-amendment-vote-maplight.pdf}.
 #' @keywords datasets
 #' @examples

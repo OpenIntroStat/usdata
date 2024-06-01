@@ -38,7 +38,7 @@ not a factor.}
 \source{
 Census Quick Facts (no longer available as of 2020),
 InfoChimps (also no longer available as of 2020),
-\href{https://www-fars.nhtsa.dot.gov/Main/index.aspx}{National Highway Traffic Safety Administration},
+\href{https://www-fars.nhtsa.dot.gov/Main/index.aspx}{National Highway Traffic Safety Administration}
 ({\code{tr_deaths}, \code{tr_deaths_no_alc}}),
 \href{https://www.bls.gov/web/laus/laumstrk.htm}{Bureau of Labor Statistics}
 (\code{unempl}).

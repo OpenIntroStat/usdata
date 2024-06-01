@@ -17,7 +17,7 @@
 #'   \item{p_mc_cain}{Proportion of votes for John McCain}
 #'   \item{el_votes}{Number of electoral votes for a state}
 #'   }
-#' @source \href{https://www.infoplease.com/us/government/elections/presidential-election-of-2008-electoral-and-popular-vote-summary}{Presidential Election of 2008, Electoral and Popular Vote Summary},
+#' @source [Presidential Election of 2008, Electoral and Popular Vote Summary](https://www.infoplease.com/us/government/elections/presidential-election-of-2008-electoral-and-popular-vote-summary),
 #' retrieved 2011-04-21.
 #' @keywords datasets election 2008 president United States
 #' @examples

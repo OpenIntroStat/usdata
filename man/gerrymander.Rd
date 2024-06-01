@@ -34,15 +34,15 @@ A dataset on gerrymandering and its influence on House elections. The data set w
 library(ggplot2)
 library(dplyr)
 ggplot(gerrymander |> filter(gerry != "mid"), aes(clinton16, dem16, color = gerry)) +
- geom_jitter(height = 0.05, size = 3, shape = 1) +
- geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
- scale_color_manual(values = c("purple", "orange")) +
- labs(
-   title = "Logistic Regression of 2016 House Elections",
-   subtitle = "by Congressional District",
-   x = "Percent of Presidential Vote Won by Clinton",
-   y = "Seat Won by Democrat Candidate",
-   color = "Gerrymandering"
- )
+  geom_jitter(height = 0.05, size = 3, shape = 1) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
+  scale_color_manual(values = c("purple", "orange")) +
+  labs(
+    title = "Logistic Regression of 2016 House Elections",
+    subtitle = "by Congressional District",
+    x = "Percent of Presidential Vote Won by Clinton",
+    y = "Seat Won by Democrat Candidate",
+    color = "Gerrymandering"
+  )
 }
 \keyword{datasets}

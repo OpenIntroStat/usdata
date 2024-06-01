@@ -25,8 +25,7 @@
 #'     fill = "Respondent Party"
 #'   ) +
 #'   facet_wrap(~president)
-#' @source
-#'   [Pew Research Center, May 2006 & March 2012](https://www.pewresearch.org/fact-tank/2013/07/25/can-a-president-control-gas-prices-depends-on-when-you-ask/).
-#'   @keywords datasets
+#' @source [Pew Research Center, May 2006 & March 2012](https://www.pewresearch.org/short-reads/2013/07/25/can-a-president-control-gas-prices-depends-on-when-you-ask/).
+#' @keywords datasets
 #'
 "prez_pwr"

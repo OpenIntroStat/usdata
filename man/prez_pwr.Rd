@@ -16,8 +16,7 @@ alot about, or is that beyond the president's control?"}
 }
 }
 \source{
-\href{https://www.pewresearch.org/fact-tank/2013/07/25/can-a-president-control-gas-prices-depends-on-when-you-ask/}{Pew Research Center, May 2006 & March 2012}.
-@keywords datasets
+\href{https://www.pewresearch.org/short-reads/2013/07/25/can-a-president-control-gas-prices-depends-on-when-you-ask/}{Pew Research Center, May 2006 & March 2012}.
 }
 \usage{
 prez_pwr

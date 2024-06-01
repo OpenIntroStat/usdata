@@ -37,9 +37,9 @@
 #' }
 #' @source Census Quick Facts (no longer available as of 2020),
 #' InfoChimps (also no longer available as of 2020),
-#' \href{https://www-fars.nhtsa.dot.gov/Main/index.aspx}{National Highway Traffic Safety Administration},
+#' [National Highway Traffic Safety Administration](https://www-fars.nhtsa.dot.gov/Main/index.aspx)
 #' ({\code{tr_deaths}, \code{tr_deaths_no_alc}}),
-#' \href{https://www.bls.gov/web/laus/laumstrk.htm}{Bureau of Labor Statistics}
+#' [Bureau of Labor Statistics](https://www.bls.gov/web/laus/laumstrk.htm)
 #' (\code{unempl}).
 #' @keywords datasets state United States crime energy
 #' @examples

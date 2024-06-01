@@ -10,4 +10,3 @@ us_time_survey <- read_excel(here::here("data-raw/us_time_survey/AmericanTimeUse
 # save --------------------------------------------------------------------------
 
 usethis::use_data(us_time_survey, overwrite = TRUE)
-

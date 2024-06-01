@@ -22,7 +22,7 @@ A data frame with 60 rows and 12 variables.
 }
 }
 \source{
-\href{http://www.disastercenter.com/crime/uscrime.htm}{Disaster Center}
+\href{https://www.disastercenter.com/crime/uscrime.htm}{Disaster Center}
 }
 \usage{
 us_crime_rates
