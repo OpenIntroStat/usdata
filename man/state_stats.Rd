@@ -56,11 +56,11 @@ library(ggplot2)
 library(dplyr)
 library(maps)
 
-states_selected <- state_stats \%>\%
-  mutate(region = tolower(state)) \%>\%
+states_selected <- state_stats |>
+  mutate(region = tolower(state)) |>
   select(region, unempl, murder, nuclear)
 
-states_map <- map_data("state") \%>\%
+states_map <- map_data("state") |>
   inner_join(states_selected)
 
 # Unemployment map
@@ -71,8 +71,8 @@ ggplot(states_map, aes(map_id = region)) +
   labs(x = "", y = "", fill = "Unemployment\n(\%)")
 
 # Murder rate map
-states_map \%>\%
-  filter(region != "district of columbia") \%>\%
+states_map |>
+  filter(region != "district of columbia") |>
   ggplot(aes(map_id = region)) +
   geom_map(aes(fill = murder), map = states_map) +
   expand_limits(x = states_map$long, y = states_map$lat) +

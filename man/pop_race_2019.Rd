@@ -28,14 +28,14 @@ State level data on population by race.
 library(dplyr)
 
 # List race population for each state with percent of total
-pop_race_2019 \%>\%
-  group_by(state_name, race, hispanic) \%>\%
-  mutate(percent = population / state_total_population * 100) \%>\%
+pop_race_2019 |>
+  group_by(state_name, race, hispanic) |>
+  mutate(percent = population / state_total_population * 100) |>
   select(state_name, race, hispanic, population, percent)
 
-pop_race_2019 \%>\%
-  select(state_name, state_total_population) \%>\%
-  distinct() \%>\%
+pop_race_2019 |>
+  select(state_name, state_total_population) |>
+  distinct() |>
   arrange(desc(state_total_population))
 }
 \keyword{datasets}

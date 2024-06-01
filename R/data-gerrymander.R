@@ -25,7 +25,7 @@
 #' @examples 
 #' library(ggplot2)
 #' library(dplyr)
-#' ggplot(gerrymander %>% filter(gerry != "mid"), aes(clinton16, dem16, color = gerry)) +
+#' ggplot(gerrymander |> filter(gerry != "mid"), aes(clinton16, dem16, color = gerry)) +
 #'  geom_jitter(height = 0.05, size = 3, shape = 1) +
 #'  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
 #'  scale_color_manual(values = c("purple", "orange")) +

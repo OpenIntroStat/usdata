@@ -51,12 +51,12 @@ A subset of the Washington Post database. Contains records of every fatal police
 library(dplyr)
 
 # List race frequency and percentage
-fatal_police_shootings \%>\%
-  group_by(race) \%>\%
-  summarize(n = n()) \%>\%
+fatal_police_shootings |>
+  group_by(race) |>
+  summarize(n = n()) |>
   mutate(freq = n / sum(n) * 100)
 # List different weapons that victims were armed with
-fatal_police_shootings \%>\%
+fatal_police_shootings |>
   distinct(armed)
 }
 \keyword{datasets}

@@ -6,7 +6,7 @@ us_crime_rates <- read_csv(here::here("data-raw/us_crime_rates/us_crime_rates.cs
 
 # cleaning: Change incorrect 0's values to NA
 
-us_crime_rates <- us_crime_rates %>%
+us_crime_rates <- us_crime_rates |>
   clean_names()
 
 # save -------------------------------------------------------------------------

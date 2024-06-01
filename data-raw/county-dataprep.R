@@ -7,7 +7,7 @@ library(dplyr)
 
 county <- openintro::county
 
-county <- county %>%
+county <- county |>
   mutate(
     name = as.character(name),
     name = if_else(name == "Hoonah–Angoon Census Area", "Hoonah Angoon Census Area", name)
