@@ -1,4 +1,4 @@
-# 0.2.1
+# 0.3.0
 
 * Added new datasets:
   * `prez_pwr`, `us_crime_rates` and `gerrymander` by [@npaterno](https://github.com/npaterno)
