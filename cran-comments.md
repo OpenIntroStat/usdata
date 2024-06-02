@@ -1,3 +1,7 @@
+## Resubmission
+
+Failing URLs have been addressed.
+
 ## Test environments
 
 * local OS X install, R 4.4.0
